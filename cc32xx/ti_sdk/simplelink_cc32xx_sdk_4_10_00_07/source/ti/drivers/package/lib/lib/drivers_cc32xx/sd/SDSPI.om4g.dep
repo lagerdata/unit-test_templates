@@ -1,0 +1,17 @@
+package/lib/lib/drivers_cc32xx/./sd/SDSPI.om4g: sd/SDSPI.c  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/ClockP.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/HwiP.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/SemaphoreP.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/GPIO.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/SD.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/sd/SDSPI.h  /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/SPI.h
+sd/SDSPI.c:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/ClockP.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/HwiP.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/dpl/SemaphoreP.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/GPIO.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/SD.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/sd/SDSPI.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/drivers/SPI.h:

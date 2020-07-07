@@ -1,0 +1,174 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_capture_c_c32_x_x___object" kind="struct" language="C++" prot="public">
+    <compoundname>CaptureCC32XX_Object</compoundname>
+    <includes refid="_capture_c_c32_x_x_8h" local="no">CaptureCC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a1f1df62b342886d84ca03163db72da8e" prot="public" static="no" mutable="no">
+        <type>HwiP_Handle</type>
+        <definition>HwiP_Handle CaptureCC32XX_Object::hwiHandle</definition>
+        <argsstring></argsstring>
+        <name>hwiHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="278" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a61e705348198ac2cd67cce9e9705217c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_power___notify_obj" kindref="compound">Power_NotifyObj</ref></type>
+        <definition>Power_NotifyObj CaptureCC32XX_Object::notifyObj</definition>
+        <argsstring></argsstring>
+        <name>notifyObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="279" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a04142779fb892e17c490076a1804a3ab" prot="public" static="no" mutable="no">
+        <type><ref refid="_capture_8h_1a52c0dd527e4793b37d1928f05897ea56" kindref="member">Capture_CallBackFxn</ref></type>
+        <definition>Capture_CallBackFxn CaptureCC32XX_Object::callBack</definition>
+        <argsstring></argsstring>
+        <name>callBack</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="280" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a6fa68fd4ab81de99c3fa5c3d891ed4ed" prot="public" static="no" mutable="no">
+        <type><ref refid="_capture_8h_1aaca480a01a184f77deba46e78fd61037" kindref="member">Capture_PeriodUnits</ref></type>
+        <definition>Capture_PeriodUnits CaptureCC32XX_Object::periodUnits</definition>
+        <argsstring></argsstring>
+        <name>periodUnits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="281" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a6013145b4ac61bb6a5a54248053f2322" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CaptureCC32XX_Object::mode</definition>
+        <argsstring></argsstring>
+        <name>mode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="282" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1a881fcc7d674631fd748c0c5bfac407f9" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CaptureCC32XX_Object::timer</definition>
+        <argsstring></argsstring>
+        <name>timer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="283" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1ad6960dcb7a31904b6298f0816ba150d6" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CaptureCC32XX_Object::previousCount</definition>
+        <argsstring></argsstring>
+        <name>previousCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="284" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="284" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___object_1adf694eb0e0e399beb6ae4a253806c771" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CaptureCC32XX_Object::isRunning</definition>
+        <argsstring></argsstring>
+        <name>isRunning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="285" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="285" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="struct_capture_c_c32_x_x___object" kindref="compound">CaptureCC32XX_Object</ref>. </para>    </briefdescription>
+    <detaileddescription>
+<para>The application must not access any member variables of this structure! </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="57">
+        <label>CaptureCC32XX_Object</label>
+        <link refid="struct_capture_c_c32_x_x___object"/>
+        <childnode refid="58" relation="usage">
+          <edgelabel>notifyObj</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>callBack</edgelabel>
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Capture_Config_</label>
+        <link refid="struct_capture___config__"/>
+        <childnode refid="61" relation="usage">
+          <edgelabel>fxnTablePtr</edgelabel>
+        </childnode>
+      </node>
+      <node id="58">
+        <label>Power_NotifyObj</label>
+        <link refid="struct_power___notify_obj"/>
+        <childnode refid="59" relation="usage">
+          <edgelabel>link</edgelabel>
+        </childnode>
+      </node>
+      <node id="61">
+        <label>Capture_FxnTable</label>
+        <link refid="struct_capture___fxn_table"/>
+        <childnode refid="60" relation="usage">
+          <edgelabel>closeFxn</edgelabel>
+          <edgelabel>stopFxn</edgelabel>
+          <edgelabel>initFxn</edgelabel>
+          <edgelabel>startFxn</edgelabel>
+          <edgelabel>controlFxn</edgelabel>
+          <edgelabel>openFxn</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
+        <label>List_Elem_</label>
+        <link refid="struct_list___elem__"/>
+        <childnode refid="59" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="277" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="277" bodyend="286"/>
+    <listofallmembers>
+      <member refid="struct_capture_c_c32_x_x___object_1a04142779fb892e17c490076a1804a3ab" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>callBack</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1a1f1df62b342886d84ca03163db72da8e" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>hwiHandle</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1adf694eb0e0e399beb6ae4a253806c771" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>isRunning</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1a6013145b4ac61bb6a5a54248053f2322" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>mode</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1a61e705348198ac2cd67cce9e9705217c" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>notifyObj</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1a6fa68fd4ab81de99c3fa5c3d891ed4ed" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>periodUnits</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1ad6960dcb7a31904b6298f0816ba150d6" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>previousCount</name></member>
+      <member refid="struct_capture_c_c32_x_x___object_1a881fcc7d674631fd748c0c5bfac407f9" prot="public" virt="non-virtual"><scope>CaptureCC32XX_Object</scope><name>timer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

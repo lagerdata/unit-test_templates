@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../uartecho.c -> uartecho.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../uartecho.syscfg -> uartecho.syscfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.cmd -> CC3235SF_LAUNCHXL_TIRTOS.cmd"
+        ]
+    }
+]

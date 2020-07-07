@@ -1,0 +1,26 @@
+[
+    {
+        "version": "4_10_00_07",
+        "allowPartialDownload": "false",
+        "id": "com.ti.SIMPLELINK_CC32XX_SDK",
+        "type": "software",
+        "description": "<strong><font color=\"red\">IMPORTANT: </font>Code Composer Studio v9.2 or later is required to use this SDK</strong></br>The SimpleLink&trade; Wi-Fi&trade; CC32xx device is a single-chip microcontroller (MCU) with built-in Wi-Fi connectivity, created for the Internet of Things (IoT).</br><p>The CC32xx device is a wireless MCU that integrates a high-performance ARM&reg; Cortex&reg;-M4 MCU, allowing customers to develop an entire application with a single IC. The Texas Instruments royalty-free CC32xx Embedded Wi-Fi foundation software development kit (SDK) is a complete software platform for developing Wi-Fi applications. It is based on the CC32xx, a complete Wi-Fi SoC (System-on-Chip) solution.</p><p>The CC32xx family of devices comes in following three variants:</br>CC3220-Base variant</br>CC3220S-CC3220 and MCU security</br>CC3220SF-CC3220S and internal flash</br>CC3235S-The next generation of the CC3220S which also has 5-Ghz features</br>CC3235SF-CC3235S and internal flash</br><p></p><p>The CC3220 solution combines a 2.4-GHz (and 5-Ghz for CC3235 S/SF only) Wi-Fi PHY/MAC and TCP/IP networking engine with a microcontroller, up to 256-kB on-chip RAM, 1-MB internal flash (for CC32xx SF), and a comprehensive range of peripherals.</p><p>For more information, visit <a href=\"http://www.ti.com/simplelink\">http://www.ti.com/simplelink</a>.</p>",
+        "image": "../../docs/images/simplelink_cc3220_sdk_logo.png",
+        "devices": [
+            "CC3220S",
+            "CC3220SF",
+            "CC3235S",
+            "CC3235SF"
+        ],
+        "license": "../../license_simplelink_cc32xx_sdk_4_10_00_07.txt",
+        "metadataVersion": "2.1.0",
+        "name": "SimpleLink CC32xx SDK",
+        "dependencies": [
+            {
+                "version": "3.61.00.16",
+                "packageId": "xdctools",
+                "require": "optional"
+            }
+        ]
+    }
+]

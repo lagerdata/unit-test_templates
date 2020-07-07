@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_watchdog_c_c32_x_x___object" kind="struct" language="C++" prot="public">
+    <compoundname>WatchdogCC32XX_Object</compoundname>
+    <includes refid="_watchdog_c_c32_x_x_8h" local="no">WatchdogCC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_watchdog_c_c32_x_x___object_1a7bebc6d6c701b1f18019ed8b4d7d1e86" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_power___notify_obj" kindref="compound">Power_NotifyObj</ref></type>
+        <definition>Power_NotifyObj WatchdogCC32XX_Object::notifyObj</definition>
+        <argsstring></argsstring>
+        <name>notifyObj</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" line="219" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" bodystart="219" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_watchdog_c_c32_x_x___object_1a2d8f9f3c5c8d91def7280bc212d9ef68" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t WatchdogCC32XX_Object::reloadValue</definition>
+        <argsstring></argsstring>
+        <name>reloadValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" line="224" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" bodystart="224" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_watchdog_c_c32_x_x___object_1a7cc63a6eda22187296d56f034af26406" prot="public" static="no" mutable="no">
+        <type><ref refid="_watchdog_8h_1ab1aa5862661c88a16b9d7bc12709d51e" kindref="member">Watchdog_DebugMode</ref></type>
+        <definition>Watchdog_DebugMode WatchdogCC32XX_Object::debugMode</definition>
+        <argsstring></argsstring>
+        <name>debugMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" line="225" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" bodystart="225" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_watchdog_c_c32_x_x___object_1a7a1810a1fd73af5afda05581cbba2d78" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool WatchdogCC32XX_Object::isOpen</definition>
+        <argsstring></argsstring>
+        <name>isOpen</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" line="226" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" bodystart="226" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Watchdog Object for CC32XX. </para>    </briefdescription>
+    <detaileddescription>
+<para>Not to be accessed by the user. </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="377">
+        <label>Power_NotifyObj</label>
+        <link refid="struct_power___notify_obj"/>
+        <childnode refid="378" relation="usage">
+          <edgelabel>link</edgelabel>
+        </childnode>
+      </node>
+      <node id="376">
+        <label>WatchdogCC32XX_Object</label>
+        <link refid="struct_watchdog_c_c32_x_x___object"/>
+        <childnode refid="377" relation="usage">
+          <edgelabel>notifyObj</edgelabel>
+        </childnode>
+      </node>
+      <node id="378">
+        <label>List_Elem_</label>
+        <link refid="struct_list___elem__"/>
+        <childnode refid="378" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" line="218" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/watchdog/WatchdogCC32XX.h" bodystart="218" bodyend="227"/>
+    <listofallmembers>
+      <member refid="struct_watchdog_c_c32_x_x___object_1a7cc63a6eda22187296d56f034af26406" prot="public" virt="non-virtual"><scope>WatchdogCC32XX_Object</scope><name>debugMode</name></member>
+      <member refid="struct_watchdog_c_c32_x_x___object_1a7a1810a1fd73af5afda05581cbba2d78" prot="public" virt="non-virtual"><scope>WatchdogCC32XX_Object</scope><name>isOpen</name></member>
+      <member refid="struct_watchdog_c_c32_x_x___object_1a7bebc6d6c701b1f18019ed8b4d7d1e86" prot="public" virt="non-virtual"><scope>WatchdogCC32XX_Object</scope><name>notifyObj</name></member>
+      <member refid="struct_watchdog_c_c32_x_x___object_1a2d8f9f3c5c8d91def7280bc212d9ef68" prot="public" virt="non-virtual"><scope>WatchdogCC32XX_Object</scope><name>reloadValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

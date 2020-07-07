@@ -1,0 +1,51 @@
+clean::
+	$(RM) package/nortos.sch
+	$(RM) package/.vers_g200
+	$(RM) package/.vers_r200
+	$(RM) package/.vers_b200
+	$(RM) package/.xdc-I08
+	$(RM) package/nortos.java
+	$(RM) package/nortos.class
+	$(RM) package/package_nortos.c
+	$(RM) package/package.defs.h
+	$(RM) package/nortos.ccs
+
+.interfaces: package/nortos.sch package/.vers_g200 package/.vers_r200 package/.vers_b200 package/.xdc-I08 package/nortos.java package/package_nortos.c package/package.defs.h package/nortos.ccs 
+package/package.xdc.inc: package/.vers_g200
+package/.vers_g200:
+package/package.xdc.inc: package/.vers_r200
+package/.vers_r200:
+package/package.xdc.inc: package/.vers_b200
+package/.vers_b200:
+
+.interfaces: 
+
+# schema include file dependencies
+
+# schema update dependencies
+package/package.xdc.inc: xdc/IPackage.xdc
+xdc/IPackage.xdc:
+vpath xdc/IPackage.xdc $(XPKGVPATH)
+
+ifneq (clean,$(MAKECMDGOALS))
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/ecj.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/ecj.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/js.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/js.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/global/java/package.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/global/java/package.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/spec/java/package.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/spec/java/package.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/antlr.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/antlr.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/cmd/java/package.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/cmd/java/package.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/tar.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/shelf/java/tar.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/gen/java/package.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/gen/java/package.jar
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/xsr/java/package.jar:
+package/package.xdc.inc: /opt/ti/xdctools_3_61_00_16_core/packages/xdc/services/intern/xsr/java/package.jar
+endif
+# goals for files generated during schema generation but unspecified by schema's pattern rule
+

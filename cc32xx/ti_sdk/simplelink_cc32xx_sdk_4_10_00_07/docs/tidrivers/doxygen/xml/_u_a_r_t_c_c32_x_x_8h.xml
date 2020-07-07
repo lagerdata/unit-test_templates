@@ -1,0 +1,764 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_u_a_r_t_c_c32_x_x_8h" kind="file" language="C++">
+    <compoundname>UARTCC32XX.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes local="no">ti/drivers/dpl/ClockP.h</includes>
+    <includes local="no">ti/drivers/dpl/HwiP.h</includes>
+    <includes local="no">ti/drivers/dpl/SemaphoreP.h</includes>
+    <includes refid="_power_8h" local="no">ti/drivers/Power.h</includes>
+    <includes refid="_power_c_c32_x_x_8h" local="no">ti/drivers/power/PowerCC32XX.h</includes>
+    <includes refid="_u_a_r_t_8h" local="no">ti/drivers/UART.h</includes>
+    <includes refid="_ring_buf_8h" local="no">ti/drivers/utils/RingBuf.h</includes>
+    <incdepgraph>
+      <node id="384">
+        <label>stdbool.h</label>
+      </node>
+      <node id="396">
+        <label>ti/drivers/UART.h</label>
+        <link refid="_u_a_r_t_8h"/>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="383" relation="include">
+        </childnode>
+      </node>
+      <node id="383">
+        <label>stdint.h</label>
+      </node>
+      <node id="394">
+        <label>ti/devices/cc32xx/driverlib/rom_map.h</label>
+      </node>
+      <node id="387">
+        <label>ti/drivers/dpl/SemaphoreP.h</label>
+      </node>
+      <node id="397">
+        <label>ti/drivers/utils/RingBuf.h</label>
+        <link refid="_ring_buf_8h"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+      </node>
+      <node id="390">
+        <label>stddef.h</label>
+      </node>
+      <node id="391">
+        <label>ti/drivers/power/PowerCC32XX.h</label>
+        <link refid="_power_c_c32_x_x_8h"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="389" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="392" relation="include">
+        </childnode>
+        <childnode refid="393" relation="include">
+        </childnode>
+        <childnode refid="394" relation="include">
+        </childnode>
+        <childnode refid="395" relation="include">
+        </childnode>
+      </node>
+      <node id="393">
+        <label>ti/devices/cc32xx/driverlib/rom.h</label>
+      </node>
+      <node id="382">
+        <label>UARTCC32XX.h</label>
+        <link refid="_u_a_r_t_c_c32_x_x_8h"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="385" relation="include">
+        </childnode>
+        <childnode refid="386" relation="include">
+        </childnode>
+        <childnode refid="387" relation="include">
+        </childnode>
+        <childnode refid="388" relation="include">
+        </childnode>
+        <childnode refid="391" relation="include">
+        </childnode>
+        <childnode refid="396" relation="include">
+        </childnode>
+        <childnode refid="397" relation="include">
+        </childnode>
+      </node>
+      <node id="388">
+        <label>ti/drivers/Power.h</label>
+        <link refid="_power_8h"/>
+        <childnode refid="389" relation="include">
+        </childnode>
+      </node>
+      <node id="386">
+        <label>ti/drivers/dpl/HwiP.h</label>
+      </node>
+      <node id="385">
+        <label>ti/drivers/dpl/ClockP.h</label>
+      </node>
+      <node id="392">
+        <label>ti/devices/cc32xx/inc/hw_types.h</label>
+      </node>
+      <node id="395">
+        <label>ti/devices/cc32xx/driverlib/pin.h</label>
+      </node>
+      <node id="389">
+        <label>ti/drivers/utils/List.h</label>
+        <link refid="_list_8h"/>
+        <childnode refid="383" relation="include">
+        </childnode>
+        <childnode refid="384" relation="include">
+        </childnode>
+        <childnode refid="390" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_u_a_r_t_c_c32_x_x___fxn_set" prot="public">UARTCC32XX_FxnSet</innerclass>
+    <innerclass refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1" prot="public">UARTCC32XX_HWAttrsV1</innerclass>
+    <innerclass refid="struct_u_a_r_t_c_c32_x_x___object" prot="public">UARTCC32XX_Object</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ad2d16f34c68354985bafe93d434bb576" prot="public" static="no">
+        <name>UARTCC32XX_PIN_UNASSIGNED</name>
+        <initializer>0xFFF</initializer>
+        <briefdescription>
+<para>Indicates a pin is not being used. </para>        </briefdescription>
+        <detaileddescription>
+<para>If hardware flow control is not being used, the UART CTS and RTS pins should be set to UARTCC32XX_PIN_UNASSIGNED. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="82" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a3d08a03600bdf352495033794e6f9a8f" prot="public" static="no">
+        <name>UARTCC32XX_PIN_01_UART1_TX</name>
+        <initializer>0x700</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 1 is used for UART1 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="94" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1af53e345c8e7e9e0034c2e6a4952c8c2c" prot="public" static="no">
+        <name>UARTCC32XX_PIN_02_UART1_RX</name>
+        <initializer>0x701</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 2 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="95" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ab869b92de3fcaf9ede686955b20c903f" prot="public" static="no">
+        <name>UARTCC32XX_PIN_03_UART0_TX</name>
+        <initializer>0x702</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 3 is used for UART0 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="96" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a9eff15eca9516f0b65eba31dde3b14b5" prot="public" static="no">
+        <name>UARTCC32XX_PIN_04_UART0_RX</name>
+        <initializer>0x703</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 4 is used for UART0 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="97" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ad347ed447b173cbb3a98d2810c0eda12" prot="public" static="no">
+        <name>UARTCC32XX_PIN_07_UART1_TX</name>
+        <initializer>0x506</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 7 is used for UART1 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="98" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a7ed6f19ff8ef194e58246b2054194743" prot="public" static="no">
+        <name>UARTCC32XX_PIN_08_UART1_RX</name>
+        <initializer>0x507</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 8 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="99" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a389c6f57c4b3d050e83b5c79997bb250" prot="public" static="no">
+        <name>UARTCC32XX_PIN_16_UART1_TX</name>
+        <initializer>0x20F</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 16 is used for UART1 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="100" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a7493a3bfc427b795d1e40008b11ae768" prot="public" static="no">
+        <name>UARTCC32XX_PIN_17_UART1_RX</name>
+        <initializer>0x210</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 17 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="101" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1aeb19dc67d89821d2f856516c673fa85c" prot="public" static="no">
+        <name>UARTCC32XX_PIN_45_UART0_RX</name>
+        <initializer>0x92C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 45 is used for UART0 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="102" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a832fcae6fc93c5abaea27ff5cf328017" prot="public" static="no">
+        <name>UARTCC32XX_PIN_45_UART1_RX</name>
+        <initializer>0x22C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 45 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="103" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a8d724a5c4b42df62a6ed007da3c85719" prot="public" static="no">
+        <name>UARTCC32XX_PIN_53_UART0_TX</name>
+        <initializer>0x934</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 53 is used for UART0 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="104" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ab7d7406f31b77a54b4c48a127a40a2a6" prot="public" static="no">
+        <name>UARTCC32XX_PIN_55_UART0_TX</name>
+        <initializer>0x336</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 55 is used for UART0 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="105" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a82b22c5d67269324336c335de10a8b3b" prot="public" static="no">
+        <name>UARTCC32XX_PIN_55_UART1_TX</name>
+        <initializer>0x636</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 55 is used for UART1 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="106" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a3b3c6b6388c86da6e9f36c13b70358d1" prot="public" static="no">
+        <name>UARTCC32XX_PIN_57_UART0_RX</name>
+        <initializer>0x338</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 57 is used for UART0 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="107" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1abe1552438ae79870bc273753c2465398" prot="public" static="no">
+        <name>UARTCC32XX_PIN_57_UART1_RX</name>
+        <initializer>0x638</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 57 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="108" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1af33b51e0a36e5a7fb666ff237116eca6" prot="public" static="no">
+        <name>UARTCC32XX_PIN_58_UART1_TX</name>
+        <initializer>0x639</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 58 is used for UART1 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="109" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a23796579b293a3000cd68aaafb4171de" prot="public" static="no">
+        <name>UARTCC32XX_PIN_59_UART1_RX</name>
+        <initializer>0x63A</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 59 is used for UART1 RX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="110" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ab00dfaee2a6cc3d0fc423cfe8f391cb1" prot="public" static="no">
+        <name>UARTCC32XX_PIN_62_UART0_TX</name>
+        <initializer>0xB3D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 62 is used for UART0 TX </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="111" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a1d939044e5608ec9ba3aee090cbddc96" prot="public" static="no">
+        <name>UARTCC32XX_PIN_50_UART0_CTS</name>
+        <initializer>0xC31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 50 is used for UART0 CTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="116" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a9280a87ac4d52521e65090a2f4354ec2" prot="public" static="no">
+        <name>UARTCC32XX_PIN_50_UART0_RTS</name>
+        <initializer>0x331</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 50 is used for UART0 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="117" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1aaf5cf2586917d02fae929a24d09c2513" prot="public" static="no">
+        <name>UARTCC32XX_PIN_50_UART1_RTS</name>
+        <initializer>0xA31</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 50 is used for UART1 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="118" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ad6e76751bd6a5d5e0f3f73672b213b81" prot="public" static="no">
+        <name>UARTCC32XX_PIN_52_UART0_RTS</name>
+        <initializer>0x633</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 52 is used for UART0 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="119" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1aaaeb525d13810402e4c37caf11e0ce51" prot="public" static="no">
+        <name>UARTCC32XX_PIN_61_UART0_RTS</name>
+        <initializer>0x53C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 61 is used for UART0 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="120" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1aeff0743281a7883e8641f6565e41029d" prot="public" static="no">
+        <name>UARTCC32XX_PIN_61_UART0_CTS</name>
+        <initializer>0x63C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 61 is used for UART0 CTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="121" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ade9d4689cf76025f8b2154ec478ce04d" prot="public" static="no">
+        <name>UARTCC32XX_PIN_61_UART1_CTS</name>
+        <initializer>0x33C</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 61 is used for UART1 CTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="122" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a3db17df88d9c3f2d75d6fa1f7d3bcbfa" prot="public" static="no">
+        <name>UARTCC32XX_PIN_62_UART0_RTS</name>
+        <initializer>0xA3D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 62 is used for UART0 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="123" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1ade98da8f1dbde4e9858eec1172a0af38" prot="public" static="no">
+        <name>UARTCC32XX_PIN_62_UART1_RTS</name>
+        <initializer>0x33D</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 62 is used for UART1 RTS </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="124" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1add1d4ef7c6518e4dded4210a6567952a" prot="public" static="no">
+        <name>UARTCC32XX_FLOWCTRL_NONE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+<para>No hardware flow control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="129" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_u_a_r_t_c_c32_x_x_8h_1a73edb03b5d36290930cee401230dfea7" prot="public" static="no">
+        <name>UARTCC32XX_FLOWCTRL_HARDWARE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+<para>Hardware flow control. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="134" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___u_a_r_t___c_m_d_1ga38c3c7e9cdb00e0a717a4f326490e3e7" prot="public" static="no">
+        <name>UARTCC32XX_CMD_IS_BUSY</name>
+        <initializer>(<ref refid="group___u_a_r_t___c_o_n_t_r_o_l_1ga0f5a809e0884da33fef102236eb51644" kindref="member">UART_CMD_RESERVED</ref> + 0)</initializer>
+        <briefdescription>
+<para>Command used by UART_control to determines whether the UART transmitter is busy or not. </para>        </briefdescription>
+        <detaileddescription>
+<para>With this command code, <bold>arg</bold> is a pointer to a <computeroutput>bool</computeroutput>. <bold>*arg</bold> contains <computeroutput>true</computeroutput> if the UART is transmitting, else <computeroutput>false</computeroutput> if all transmissions are complete. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="168" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___u_a_r_t___c_m_d_1gab87e5a568435493f272b07bdbca9fb3b" prot="public" static="no">
+        <name>UARTCC32XX_CMD_IS_RX_DATA_AVAILABLE</name>
+        <initializer>(<ref refid="group___u_a_r_t___c_o_n_t_r_o_l_1ga0f5a809e0884da33fef102236eb51644" kindref="member">UART_CMD_RESERVED</ref> + 1)</initializer>
+        <briefdescription>
+<para>Command used by UART_control to determines if there are any characters in the receive FIFO. </para>        </briefdescription>
+        <detaileddescription>
+<para>With this command code, <bold>arg</bold> is a pointer to a <computeroutput>bool</computeroutput>. <bold>*arg</bold> contains <computeroutput>true</computeroutput> if there is data in the receive FIFO, or <computeroutput>false</computeroutput> if there is no data in the receive FIFO. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="179" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="179" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="group___u_a_r_t___c_m_d_1ga40a5ff3e171620cb3fa6288a56acb433" prot="public" static="no">
+        <name>UARTCC32XX_CMD_IS_TX_SPACE_AVAILABLE</name>
+        <initializer>(<ref refid="group___u_a_r_t___c_o_n_t_r_o_l_1ga0f5a809e0884da33fef102236eb51644" kindref="member">UART_CMD_RESERVED</ref> + 2)</initializer>
+        <briefdescription>
+<para>Command used by UART_control to determines if there is any space in the transmit FIFO. </para>        </briefdescription>
+        <detaileddescription>
+<para>With this command code, <bold>arg</bold> is a pointer to a <computeroutput>bool</computeroutput>. <bold>*arg</bold> contains <computeroutput>true</computeroutput> if there is space available in the transmit FIFO, or <computeroutput>false</computeroutput> if there is no space available in the transmit FIFO. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="190" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="190" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="_u_a_r_t_c_c32_x_x_8h_1acb6bb8cf2b70e351277acd6180cab586" prot="public" static="no">
+        <type>void(*</type>
+        <definition>typedef void(* UARTCC32XX_ErrorCallback) (UART_Handle handle, uint32_t error)</definition>
+        <argsstring>)(UART_Handle handle, uint32_t error)</argsstring>
+        <name>UARTCC32XX_ErrorCallback</name>
+        <briefdescription>
+<para>The definition of an optional callback function used by the UART driver to notify the application when a receive error (FIFO overrun, parity error, etc) occurs. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>UART_Handle</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>UART_Handle</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>error</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The current value of the receive status register. Please refer to the device data sheet to interpret this value. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="236" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" bodystart="236" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="_u_a_r_t_c_c32_x_x_8h_1a7fad69961f8f906467fa2489905ca08c" prot="public" static="no">
+        <type>struct <ref refid="struct_u_a_r_t_c_c32_x_x___object" kindref="compound">UARTCC32XX_Object</ref> *</type>
+        <definition>typedef  struct UARTCC32XX_Object * UARTCC32XX_Handle</definition>
+        <argsstring></argsstring>
+        <name>UARTCC32XX_Handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="390" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_u_a_r_t_c_c32_x_x_8h_1ab9c2c70723744587cc3708749713851f" prot="public" static="no" mutable="no">
+        <type>const <ref refid="struct_u_a_r_t___fxn_table" kindref="compound">UART_FxnTable</ref></type>
+        <definition>const UART_FxnTable UARTCC32XX_fxnTable</definition>
+        <argsstring></argsstring>
+        <name>UARTCC32XX_fxnTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h" line="196" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>UART driver implementation for a CC32XX UART controller. </para>    </briefdescription>
+    <detaileddescription>
+<para>============================================================================</para><para>The UART header file should be included in an application as follows: <programlisting><codeline><highlight class="normal">#include<sp/>&lt;ti/drivers/UART.h&gt;</highlight></codeline>
+<codeline><highlight class="normal">#include<sp/>&lt;ti/drivers/uart/UARTCC32XX.h&gt;</highlight></codeline>
+</programlisting></para><para>Refer to <ref refid="_u_a_r_t_8h" kindref="compound">UART.h</ref> for a complete description of APIs &amp; example of use.</para><para><heading level="1">Device Specific Pin Mode Macros</heading>
+</para><para>This header file contains pin mode definitions used to specify the UART TX and RX pin assignment in the <ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1" kindref="compound">UARTCC32XX_HWAttrsV1</ref> structure. Please refer to the CC32XX Techincal Reference Manual for details on pin multiplexing.</para><para><heading level="1">Flow Control</heading>
+</para><para>To enable Flow Control, the RTS and CTS pins must be assigned in the <ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1" kindref="compound">UARTCC32XX_HWAttrsV1</ref>. <hruler/>
+ </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2015-2019,<sp/>Texas<sp/>Instruments<sp/>Incorporated</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Neither<sp/>the<sp/>name<sp/>of<sp/>Texas<sp/>Instruments<sp/>Incorporated<sp/>nor<sp/>the<sp/>names<sp/>of</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>its<sp/>contributors<sp/>may<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>from<sp/>this<sp/>software<sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS<sp/>&quot;AS<sp/>IS&quot;</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>PURPOSE<sp/>ARE<sp/>DISCLAIMED.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>OWNER<sp/>OR</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>CONTRIBUTORS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,<sp/>SPECIAL,</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight></codeline>
+<codeline lineno="58"><highlight class="preprocessor">#ifndef<sp/>ti_drivers_uart_UARTCC32XX__include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ti_drivers_uart_UARTCC32XX__include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="60"><highlight class="normal"></highlight></codeline>
+<codeline lineno="61"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="63"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ti/drivers/dpl/ClockP.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ti/drivers/dpl/HwiP.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="66"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;ti/drivers/dpl/SemaphoreP.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_power_8h" kindref="compound">ti/drivers/Power.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="68"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_power_c_c32_x_x_8h" kindref="compound">ti/drivers/power/PowerCC32XX.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_u_a_r_t_8h" kindref="compound">ti/drivers/UART.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="70"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_ring_buf_8h" kindref="compound">ti/drivers/utils/RingBuf.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="75"><highlight class="normal"></highlight></codeline>
+<codeline lineno="82" refid="_u_a_r_t_c_c32_x_x_8h_1ad2d16f34c68354985bafe93d434bb576" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_UNASSIGNED<sp/><sp/><sp/>0xFFF</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal"></highlight></codeline>
+<codeline lineno="84"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="85"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>bits<sp/>in<sp/>the<sp/>pin<sp/>mode<sp/>macros<sp/>are<sp/>as<sp/>follows:</highlight></codeline>
+<codeline lineno="86"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>lower<sp/>8<sp/>bits<sp/>of<sp/>the<sp/>macro<sp/>refer<sp/>to<sp/>the<sp/>pin,<sp/>offset<sp/>by<sp/>1,<sp/>to<sp/>match</highlight></codeline>
+<codeline lineno="87"><highlight class="comment"><sp/>*<sp/><sp/>driverlib<sp/>pin<sp/>defines.<sp/><sp/>For<sp/>example,<sp/>UARTCC32XX_PIN_01_UART1_TX<sp/>&amp;<sp/>0xff<sp/>=<sp/>0,</highlight></codeline>
+<codeline lineno="88"><highlight class="comment"><sp/>*<sp/><sp/>which<sp/>equals<sp/>PIN_01<sp/>in<sp/>driverlib<sp/>pin.h.<sp/><sp/>By<sp/>matching<sp/>the<sp/>PIN_xx<sp/>defines<sp/>in</highlight></codeline>
+<codeline lineno="89"><highlight class="comment"><sp/>*<sp/><sp/>driverlib<sp/>pin.h,<sp/>we<sp/>can<sp/>pass<sp/>the<sp/>pin<sp/>directly<sp/>to<sp/>the<sp/>driverlib<sp/>functions.</highlight></codeline>
+<codeline lineno="90"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>upper<sp/>8<sp/>bits<sp/>of<sp/>the<sp/>macro<sp/>correspond<sp/>to<sp/>the<sp/>pin<sp/>mux<sp/>confg<sp/>mode</highlight></codeline>
+<codeline lineno="91"><highlight class="comment"><sp/>*<sp/><sp/>value<sp/>for<sp/>the<sp/>pin<sp/>to<sp/>operate<sp/>in<sp/>the<sp/>UART<sp/>mode.<sp/><sp/>For<sp/>example,<sp/>pin<sp/>1<sp/>is</highlight></codeline>
+<codeline lineno="92"><highlight class="comment"><sp/>*<sp/><sp/>configured<sp/>with<sp/>mode<sp/>7<sp/>to<sp/>operate<sp/>as<sp/>UART1<sp/>TX.</highlight></codeline>
+<codeline lineno="93"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="_u_a_r_t_c_c32_x_x_8h_1a3d08a03600bdf352495033794e6f9a8f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_01_UART1_TX<sp/><sp/>0x700<sp/></highlight></codeline>
+<codeline lineno="95" refid="_u_a_r_t_c_c32_x_x_8h_1af53e345c8e7e9e0034c2e6a4952c8c2c" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_02_UART1_RX<sp/><sp/>0x701<sp/></highlight></codeline>
+<codeline lineno="96" refid="_u_a_r_t_c_c32_x_x_8h_1ab869b92de3fcaf9ede686955b20c903f" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_03_UART0_TX<sp/><sp/>0x702<sp/></highlight></codeline>
+<codeline lineno="97" refid="_u_a_r_t_c_c32_x_x_8h_1a9eff15eca9516f0b65eba31dde3b14b5" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_04_UART0_RX<sp/><sp/>0x703<sp/></highlight></codeline>
+<codeline lineno="98" refid="_u_a_r_t_c_c32_x_x_8h_1ad347ed447b173cbb3a98d2810c0eda12" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_07_UART1_TX<sp/><sp/>0x506<sp/></highlight></codeline>
+<codeline lineno="99" refid="_u_a_r_t_c_c32_x_x_8h_1a7ed6f19ff8ef194e58246b2054194743" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_08_UART1_RX<sp/><sp/>0x507<sp/></highlight></codeline>
+<codeline lineno="100" refid="_u_a_r_t_c_c32_x_x_8h_1a389c6f57c4b3d050e83b5c79997bb250" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_16_UART1_TX<sp/><sp/>0x20F<sp/></highlight></codeline>
+<codeline lineno="101" refid="_u_a_r_t_c_c32_x_x_8h_1a7493a3bfc427b795d1e40008b11ae768" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_17_UART1_RX<sp/><sp/>0x210<sp/></highlight></codeline>
+<codeline lineno="102" refid="_u_a_r_t_c_c32_x_x_8h_1aeb19dc67d89821d2f856516c673fa85c" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_45_UART0_RX<sp/><sp/>0x92C<sp/></highlight></codeline>
+<codeline lineno="103" refid="_u_a_r_t_c_c32_x_x_8h_1a832fcae6fc93c5abaea27ff5cf328017" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_45_UART1_RX<sp/><sp/>0x22C<sp/></highlight></codeline>
+<codeline lineno="104" refid="_u_a_r_t_c_c32_x_x_8h_1a8d724a5c4b42df62a6ed007da3c85719" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_53_UART0_TX<sp/><sp/>0x934<sp/></highlight></codeline>
+<codeline lineno="105" refid="_u_a_r_t_c_c32_x_x_8h_1ab7d7406f31b77a54b4c48a127a40a2a6" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_55_UART0_TX<sp/><sp/>0x336<sp/></highlight></codeline>
+<codeline lineno="106" refid="_u_a_r_t_c_c32_x_x_8h_1a82b22c5d67269324336c335de10a8b3b" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_55_UART1_TX<sp/><sp/>0x636<sp/></highlight></codeline>
+<codeline lineno="107" refid="_u_a_r_t_c_c32_x_x_8h_1a3b3c6b6388c86da6e9f36c13b70358d1" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_57_UART0_RX<sp/><sp/>0x338<sp/></highlight></codeline>
+<codeline lineno="108" refid="_u_a_r_t_c_c32_x_x_8h_1abe1552438ae79870bc273753c2465398" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_57_UART1_RX<sp/><sp/>0x638<sp/></highlight></codeline>
+<codeline lineno="109" refid="_u_a_r_t_c_c32_x_x_8h_1af33b51e0a36e5a7fb666ff237116eca6" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_58_UART1_TX<sp/><sp/>0x639<sp/></highlight></codeline>
+<codeline lineno="110" refid="_u_a_r_t_c_c32_x_x_8h_1a23796579b293a3000cd68aaafb4171de" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_59_UART1_RX<sp/><sp/>0x63A<sp/></highlight></codeline>
+<codeline lineno="111" refid="_u_a_r_t_c_c32_x_x_8h_1ab00dfaee2a6cc3d0fc423cfe8f391cb1" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_62_UART0_TX<sp/><sp/>0xB3D<sp/></highlight></codeline>
+<codeline lineno="113"><highlight class="preprocessor"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="114"><highlight class="comment"><sp/>*<sp/><sp/>Flow<sp/>control<sp/>pins.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment"><sp/>*/</highlight><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="116" refid="_u_a_r_t_c_c32_x_x_8h_1a1d939044e5608ec9ba3aee090cbddc96" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_50_UART0_CTS<sp/><sp/>0xC31<sp/></highlight></codeline>
+<codeline lineno="117" refid="_u_a_r_t_c_c32_x_x_8h_1a9280a87ac4d52521e65090a2f4354ec2" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_50_UART0_RTS<sp/><sp/>0x331<sp/></highlight></codeline>
+<codeline lineno="118" refid="_u_a_r_t_c_c32_x_x_8h_1aaf5cf2586917d02fae929a24d09c2513" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_50_UART1_RTS<sp/><sp/>0xA31<sp/></highlight></codeline>
+<codeline lineno="119" refid="_u_a_r_t_c_c32_x_x_8h_1ad6e76751bd6a5d5e0f3f73672b213b81" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_52_UART0_RTS<sp/><sp/>0x633<sp/></highlight></codeline>
+<codeline lineno="120" refid="_u_a_r_t_c_c32_x_x_8h_1aaaeb525d13810402e4c37caf11e0ce51" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_61_UART0_RTS<sp/><sp/>0x53C<sp/></highlight></codeline>
+<codeline lineno="121" refid="_u_a_r_t_c_c32_x_x_8h_1aeff0743281a7883e8641f6565e41029d" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_61_UART0_CTS<sp/><sp/>0x63C<sp/></highlight></codeline>
+<codeline lineno="122" refid="_u_a_r_t_c_c32_x_x_8h_1ade9d4689cf76025f8b2154ec478ce04d" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_61_UART1_CTS<sp/><sp/>0x33C<sp/></highlight></codeline>
+<codeline lineno="123" refid="_u_a_r_t_c_c32_x_x_8h_1a3db17df88d9c3f2d75d6fa1f7d3bcbfa" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_62_UART0_RTS<sp/><sp/>0xA3D<sp/></highlight></codeline>
+<codeline lineno="124" refid="_u_a_r_t_c_c32_x_x_8h_1ade98da8f1dbde4e9858eec1172a0af38" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_PIN_62_UART1_RTS<sp/><sp/>0x33D<sp/></highlight></codeline>
+<codeline lineno="129" refid="_u_a_r_t_c_c32_x_x_8h_1add1d4ef7c6518e4dded4210a6567952a" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_FLOWCTRL_NONE<sp/>0</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="134" refid="_u_a_r_t_c_c32_x_x_8h_1a73edb03b5d36290930cee401230dfea7" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_FLOWCTRL_HARDWARE<sp/>1</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="135"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146"><highlight class="comment">/*<sp/>Add<sp/>UARTCC32XX_STATUS_*<sp/>macros<sp/>here<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight></codeline>
+<codeline lineno="168" refid="group___u_a_r_t___c_m_d_1ga38c3c7e9cdb00e0a717a4f326490e3e7" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_CMD_IS_BUSY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>(UART_CMD_RESERVED<sp/>+<sp/>0)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight></codeline>
+<codeline lineno="179" refid="group___u_a_r_t___c_m_d_1gab87e5a568435493f272b07bdbca9fb3b" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_CMD_IS_RX_DATA_AVAILABLE<sp/><sp/><sp/><sp/><sp/>(UART_CMD_RESERVED<sp/>+<sp/>1)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="180"><highlight class="normal"></highlight></codeline>
+<codeline lineno="181"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190" refid="group___u_a_r_t___c_m_d_1ga40a5ff3e171620cb3fa6288a56acb433" refkind="member"><highlight class="preprocessor">#define<sp/>UARTCC32XX_CMD_IS_TX_SPACE_AVAILABLE<sp/><sp/><sp/><sp/>(UART_CMD_RESERVED<sp/>+<sp/>2)</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+<codeline lineno="192"><highlight class="normal"></highlight></codeline>
+<codeline lineno="195"><highlight class="comment">/*<sp/>UART<sp/>function<sp/>table<sp/>pointer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="196"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_u_a_r_t___fxn_table" kindref="compound">UART_FxnTable</ref><sp/><ref refid="_u_a_r_t_c_c32_x_x_8h_1ab9c2c70723744587cc3708749713851f" kindref="member">UARTCC32XX_fxnTable</ref>;</highlight></codeline>
+<codeline lineno="197"><highlight class="normal"></highlight></codeline>
+<codeline lineno="219" refid="struct_u_a_r_t_c_c32_x_x___fxn_set" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="220" refid="struct_u_a_r_t_c_c32_x_x___fxn_set_1ade2a69cfac20f08aac4b18c82eb86781" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>bool<sp/>(*readIsrFxn)<sp/><sp/>(<ref refid="struct_u_a_r_t___config__" kindref="compound">UART_Handle</ref><sp/>handle);</highlight></codeline>
+<codeline lineno="221" refid="struct_u_a_r_t_c_c32_x_x___fxn_set_1a47ad3bbefe19e31f4d3a040c9fa0ac40" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>int<sp/><sp/>(*readTaskFxn)<sp/>(<ref refid="struct_u_a_r_t___config__" kindref="compound">UART_Handle</ref><sp/>handle);</highlight></codeline>
+<codeline lineno="222"><highlight class="normal">}<sp/><ref refid="struct_u_a_r_t_c_c32_x_x___fxn_set" kindref="compound">UARTCC32XX_FxnSet</ref>;</highlight></codeline>
+<codeline lineno="223"><highlight class="normal"></highlight></codeline>
+<codeline lineno="236" refid="_u_a_r_t_c_c32_x_x_8h_1acb6bb8cf2b70e351277acd6180cab586" refkind="member"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/>void<sp/>(*<ref refid="_u_a_r_t_c_c32_x_x_8h_1acb6bb8cf2b70e351277acd6180cab586" kindref="member">UARTCC32XX_ErrorCallback</ref>)<sp/>(<ref refid="struct_u_a_r_t___config__" kindref="compound">UART_Handle</ref><sp/>handle,<sp/>uint32_t<sp/>error);</highlight></codeline>
+<codeline lineno="237"><highlight class="normal"></highlight></codeline>
+<codeline lineno="292" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="294" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1aa0f3a12c7ce1081624ef0020f5a9d2d7" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1aa0f3a12c7ce1081624ef0020f5a9d2d7" kindref="member">baseAddr</ref>;</highlight></codeline>
+<codeline lineno="296" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1adda229a538e5e239949565d9677a36d1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1adda229a538e5e239949565d9677a36d1" kindref="member">intNum</ref>;</highlight></codeline>
+<codeline lineno="298" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a824fdc6655f48328d1dd51204cbfa4ca" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a824fdc6655f48328d1dd51204cbfa4ca" kindref="member">intPriority</ref>;</highlight></codeline>
+<codeline lineno="300" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae88e3f5a6d57e8273f46600decfb15ff" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae88e3f5a6d57e8273f46600decfb15ff" kindref="member">flowControl</ref>;</highlight></codeline>
+<codeline lineno="302" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a864b5cf45327d01dc4a039b374a7f697" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/>*<ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a864b5cf45327d01dc4a039b374a7f697" kindref="member">ringBufPtr</ref>;</highlight></codeline>
+<codeline lineno="304" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae44282e366fedc3224583a8c787cf12b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae44282e366fedc3224583a8c787cf12b" kindref="member">ringBufSize</ref>;</highlight></codeline>
+<codeline lineno="306" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a981f3b056fdc8fab9c9b3d8d4c570078" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a981f3b056fdc8fab9c9b3d8d4c570078" kindref="member">rxPin</ref>;</highlight></codeline>
+<codeline lineno="308" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a26d782ae87dbe841c789c125d2c9bd00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a26d782ae87dbe841c789c125d2c9bd00" kindref="member">txPin</ref>;</highlight></codeline>
+<codeline lineno="310" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae558d0acdab993706032bc69a6409c2f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1ae558d0acdab993706032bc69a6409c2f" kindref="member">ctsPin</ref>;</highlight></codeline>
+<codeline lineno="312" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a65eda760213ce43fd2a505b4484404b8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1a65eda760213ce43fd2a505b4484404b8" kindref="member">rtsPin</ref>;</highlight></codeline>
+<codeline lineno="314" refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1af76b4cc189d2f1b6543b936fb08779a5" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_c_c32_x_x_8h_1acb6bb8cf2b70e351277acd6180cab586" kindref="member">UARTCC32XX_ErrorCallback</ref><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1_1af76b4cc189d2f1b6543b936fb08779a5" kindref="member">errorFxn</ref>;</highlight></codeline>
+<codeline lineno="315"><highlight class="normal">}<sp/><ref refid="struct_u_a_r_t_c_c32_x_x___h_w_attrs_v1" kindref="compound">UARTCC32XX_HWAttrsV1</ref>;</highlight></codeline>
+<codeline lineno="316"><highlight class="normal"></highlight></codeline>
+<codeline lineno="322" refid="struct_u_a_r_t_c_c32_x_x___object" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="323"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UART<sp/>state<sp/>variable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="324"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="325" refid="struct_u_a_r_t_c_c32_x_x___object_1af2d30e3cdcb5951d0d5007bc124a5aed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>opened:1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Has<sp/>the<sp/>obj<sp/>been<sp/>opened<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="326" refid="struct_u_a_r_t_c_c32_x_x___object_1aa5d421583d525cf2f52308244418095b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a2507a620dba95cd20885c52494d19e90" kindref="member">UART_Mode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>readMode:1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Mode<sp/>for<sp/>all<sp/>read<sp/>calls<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="327" refid="struct_u_a_r_t_c_c32_x_x___object_1a64151f58e9790d4d51447695e47ace4e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a2507a620dba95cd20885c52494d19e90" kindref="member">UART_Mode</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>writeMode:1;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Mode<sp/>for<sp/>all<sp/>write<sp/>calls<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="328" refid="struct_u_a_r_t_c_c32_x_x___object_1a0c34ae89bac416f11387a567a886656e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a694090fdb166f94ac30b809f9cba87b8" kindref="member">UART_DataMode</ref><sp/><sp/><sp/><sp/>readDataMode:1;<sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Type<sp/>of<sp/>data<sp/>being<sp/>read<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="329" refid="struct_u_a_r_t_c_c32_x_x___object_1ae7bc783d545ace373b2ab35be678b113" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a694090fdb166f94ac30b809f9cba87b8" kindref="member">UART_DataMode</ref><sp/><sp/><sp/><sp/>writeDataMode:1;<sp/><sp/></highlight><highlight class="comment">/*<sp/>Type<sp/>of<sp/>data<sp/>being<sp/>written<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="330" refid="struct_u_a_r_t_c_c32_x_x___object_1a64753dcfa57d7cb3068b9ee9089d2e38" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1acb5a82843435a1b5d51b6c27028d914f" kindref="member">UART_ReturnMode</ref><sp/><sp/>readReturnMode:1;<sp/></highlight><highlight class="comment">/*<sp/>Receive<sp/>return<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="331" refid="struct_u_a_r_t_c_c32_x_x___object_1aa11b5c6c15e28d35932f1c15a1d20a2c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1aac6a03c2e1d76f53e1d9d923dcdc24f2" kindref="member">UART_Echo</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>readEcho:1;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Echo<sp/>received<sp/>data<sp/>back<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="332"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="333"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>to<sp/>determine<sp/>if<sp/>a<sp/>timeout<sp/>has<sp/>occurred<sp/>when<sp/>the<sp/>user<sp/>called</highlight></codeline>
+<codeline lineno="334"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>UART_read().<sp/>This<sp/>flag<sp/>is<sp/>set<sp/>by<sp/>the<sp/>timeoutClk<sp/>clock<sp/>object.</highlight></codeline>
+<codeline lineno="335"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="336" refid="struct_u_a_r_t_c_c32_x_x___object_1aec19a32fec0fa657d7f30d52503c9c66" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>bufTimeout:1;</highlight></codeline>
+<codeline lineno="337"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="338"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>to<sp/>determine<sp/>when<sp/>an<sp/>ISR<sp/>needs<sp/>to<sp/>perform<sp/>a<sp/>callback;<sp/>in<sp/>both</highlight></codeline>
+<codeline lineno="339"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>UART_MODE_BLOCKING<sp/>or<sp/>UART_MODE_CALLBACK</highlight></codeline>
+<codeline lineno="340"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="341" refid="struct_u_a_r_t_c_c32_x_x___object_1aafcb97579f7a467d33c2010412ff298b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>callCallback:1;</highlight></codeline>
+<codeline lineno="342"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="343"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>Flag<sp/>to<sp/>determine<sp/>if<sp/>the<sp/>ISR<sp/>is<sp/>in<sp/>control<sp/>draining<sp/>the<sp/>ring<sp/>buffer</highlight></codeline>
+<codeline lineno="344"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<sp/>when<sp/>in<sp/>UART_MODE_CALLBACK</highlight></codeline>
+<codeline lineno="345"><highlight class="comment"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="346" refid="struct_u_a_r_t_c_c32_x_x___object_1ab42dc57b1ccdb69495a09d82dd2c896e" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>drainByISR:1;</highlight></codeline>
+<codeline lineno="347"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flag<sp/>to<sp/>keep<sp/>the<sp/>state<sp/>of<sp/>the<sp/>read<sp/>Power<sp/>constraints<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="348" refid="struct_u_a_r_t_c_c32_x_x___object_1a05c8aef7e0a937e5438510405f35efbe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>rxEnabled:1;</highlight></codeline>
+<codeline lineno="349"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flag<sp/>to<sp/>keep<sp/>the<sp/>state<sp/>of<sp/>the<sp/>write<sp/>Power<sp/>constraints<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="350" refid="struct_u_a_r_t_c_c32_x_x___object_1adcf5a3084cc80054e7527d27e57affae" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>txEnabled:1;</highlight></codeline>
+<codeline lineno="351"><highlight class="normal"></highlight></codeline>
+<codeline lineno="352"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Flags<sp/>to<sp/>prevent<sp/>recursion<sp/>in<sp/>read<sp/>callback<sp/>mode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="353" refid="struct_u_a_r_t_c_c32_x_x___object_1a42a74d460e008c38ade93b33769e3b28" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>inReadCallback:1;</highlight></codeline>
+<codeline lineno="354" refid="struct_u_a_r_t_c_c32_x_x___object_1a6b8118ebfd21e32b11d5d91309aa4aa6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">volatile</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/>readCallbackPending:1;</highlight></codeline>
+<codeline lineno="355"><highlight class="normal"><sp/><sp/><sp/><sp/>}<sp/>state;</highlight></codeline>
+<codeline lineno="356"><highlight class="normal"></highlight></codeline>
+<codeline lineno="357" refid="struct_u_a_r_t_c_c32_x_x___object_1aa82a7eddf5a64994183e2635c3f928ef" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>HwiP_Handle<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1aa82a7eddf5a64994183e2635c3f928ef" kindref="member">hwiHandle</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Hwi<sp/>handle<sp/>for<sp/>interrupts<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="358" refid="struct_u_a_r_t_c_c32_x_x___object_1a3cec5b3b53c68db41ba350ff57777556" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>ClockP_Handle<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a3cec5b3b53c68db41ba350ff57777556" kindref="member">timeoutClk</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Clock<sp/>object<sp/>to<sp/>for<sp/>timeouts<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="359" refid="struct_u_a_r_t_c_c32_x_x___object_1a941fc52b62a090efe4bbf3733af12d23" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint32_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a941fc52b62a090efe4bbf3733af12d23" kindref="member">baudRate</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Baud<sp/>rate<sp/>for<sp/>UART<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="360" refid="struct_u_a_r_t_c_c32_x_x___object_1a59c1eeaede3e8325c7ebe6662e0028f2" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1adf245d5f10db0abcbd8ad62a0d80c694" kindref="member">UART_LEN</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a59c1eeaede3e8325c7ebe6662e0028f2" kindref="member">dataLength</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Data<sp/>length<sp/>for<sp/>UART<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="361" refid="struct_u_a_r_t_c_c32_x_x___object_1ac75b9e77624b4e11f23dd73bed1b5aeb" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a176b71ca19bc13d7534fa30fc18c2243" kindref="member">UART_STOP</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1ac75b9e77624b4e11f23dd73bed1b5aeb" kindref="member">stopBits</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Stop<sp/>bits<sp/>for<sp/>UART<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="362" refid="struct_u_a_r_t_c_c32_x_x___object_1ac0e017c9eb9cd44254ab761ba58fa4ec" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1ac70b5aa75500b8c45a51ec560deccfc4" kindref="member">UART_PAR</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1ac0e017c9eb9cd44254ab761ba58fa4ec" kindref="member">parityType</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Parity<sp/>bit<sp/>type<sp/>for<sp/>UART<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="363"><highlight class="normal"></highlight></codeline>
+<codeline lineno="364"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UART<sp/>read<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="365" refid="struct_u_a_r_t_c_c32_x_x___object_1a1817a11c8f868369629fc85cfb889751" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_ring_buf___object" kindref="compound">RingBuf_Object</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a1817a11c8f868369629fc85cfb889751" kindref="member">ringBuffer</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>local<sp/>circular<sp/>buffer<sp/>object<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="366"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>A<sp/>complement<sp/>pair<sp/>of<sp/>read<sp/>functions<sp/>for<sp/>both<sp/>the<sp/>ISR<sp/>and<sp/>UART_read()<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="367" refid="struct_u_a_r_t_c_c32_x_x___object_1a4f104180dc08dca89a502d78d425135f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___fxn_set" kindref="compound">UARTCC32XX_FxnSet</ref><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a4f104180dc08dca89a502d78d425135f" kindref="member">readFxns</ref>;</highlight></codeline>
+<codeline lineno="368" refid="struct_u_a_r_t_c_c32_x_x___object_1a644bb73db23ef24cb464782ee8e5f7ed" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/>*<ref refid="struct_u_a_r_t_c_c32_x_x___object_1a644bb73db23ef24cb464782ee8e5f7ed" kindref="member">readBuf</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Buffer<sp/>data<sp/>pointer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="369" refid="struct_u_a_r_t_c_c32_x_x___object_1a2bd1194edb1b8f7f4b854121199618b1" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a2bd1194edb1b8f7f4b854121199618b1" kindref="member">readSize</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Desired<sp/>number<sp/>of<sp/>bytes<sp/>to<sp/>read<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="370" refid="struct_u_a_r_t_c_c32_x_x___object_1af646dabb38a8adaaadd230e263354c08" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1af646dabb38a8adaaadd230e263354c08" kindref="member">readCount</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>bytes<sp/>left<sp/>to<sp/>read<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="371" refid="struct_u_a_r_t_c_c32_x_x___object_1aa36621016fa2824aa1835dafd4acb810" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SemaphoreP_Handle<sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1aa36621016fa2824aa1835dafd4acb810" kindref="member">readSem</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UART<sp/>read<sp/>semaphore<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="372" refid="struct_u_a_r_t_c_c32_x_x___object_1a7bef8ac1c65493028ff52a4ee2d54861" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a7bef8ac1c65493028ff52a4ee2d54861" kindref="member">readTimeout</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>for<sp/>read<sp/>semaphore<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="373" refid="struct_u_a_r_t_c_c32_x_x___object_1ab709032922f2d61ac45ac904644afd07" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a5d43bd8997e9153ce790bc81467ec935" kindref="member">UART_Callback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1ab709032922f2d61ac45ac904644afd07" kindref="member">readCallback</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pointer<sp/>to<sp/>read<sp/>callback<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="374"><highlight class="normal"></highlight></codeline>
+<codeline lineno="375"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UART<sp/>write<sp/>variables<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="376" refid="struct_u_a_r_t_c_c32_x_x___object_1aa775755856ce18174706228f28cde459" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">char</highlight><highlight class="normal"><sp/>*<ref refid="struct_u_a_r_t_c_c32_x_x___object_1aa775755856ce18174706228f28cde459" kindref="member">writeBuf</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Buffer<sp/>data<sp/>pointer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="377" refid="struct_u_a_r_t_c_c32_x_x___object_1a9ebab52c492c78415f7ed9aacb307f6f" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a9ebab52c492c78415f7ed9aacb307f6f" kindref="member">writeSize</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Desired<sp/>number<sp/>of<sp/>bytes<sp/>to<sp/>write*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="378" refid="struct_u_a_r_t_c_c32_x_x___object_1a95b4875ff9f3fe633526b7bbe23261a9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">size_t</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a95b4875ff9f3fe633526b7bbe23261a9" kindref="member">writeCount</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>bytes<sp/>left<sp/>to<sp/>write<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="379" refid="struct_u_a_r_t_c_c32_x_x___object_1ae3f8f36bf60eeef14a7ffca4c4eabb31" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>SemaphoreP_Handle<sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1ae3f8f36bf60eeef14a7ffca4c4eabb31" kindref="member">writeSem</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>UART<sp/>write<sp/>semaphore*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="380" refid="struct_u_a_r_t_c_c32_x_x___object_1a3d10e902a4de892a5d8030348df87a00" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a3d10e902a4de892a5d8030348df87a00" kindref="member">writeTimeout</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>for<sp/>write<sp/>semaphore<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="381" refid="struct_u_a_r_t_c_c32_x_x___object_1a4168549630b6d7d060b7e875a564beaa" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_u_a_r_t_8h_1a5d43bd8997e9153ce790bc81467ec935" kindref="member">UART_Callback</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a4168549630b6d7d060b7e875a564beaa" kindref="member">writeCallback</ref>;<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Pointer<sp/>to<sp/>write<sp/>callback<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="382"><highlight class="normal"></highlight></codeline>
+<codeline lineno="383"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>For<sp/>Power<sp/>management<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="384" refid="struct_u_a_r_t_c_c32_x_x___object_1a2be185f5cdb3be913baad08042bfe5f8" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="struct_power___notify_obj" kindref="compound">Power_NotifyObj</ref><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a2be185f5cdb3be913baad08042bfe5f8" kindref="member">postNotify</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>LPDS<sp/>wake-up<sp/>notify<sp/>object<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="385" refid="struct_u_a_r_t_c_c32_x_x___object_1a6ab1cfd3775eb8b25fea52a5a4a80483" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">unsigned</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a6ab1cfd3775eb8b25fea52a5a4a80483" kindref="member">powerMgrId</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Determined<sp/>from<sp/>base<sp/>address<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="386" refid="struct_u_a_r_t_c_c32_x_x___object_1a69e8c4e7bc31067487ca4adb542927c0" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_power_c_c32_x_x_8h_1aed4c2508d1c416af97dbd8a8cb4d2f0f" kindref="member">PowerCC32XX_ParkState</ref><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a69e8c4e7bc31067487ca4adb542927c0" kindref="member">prevParkTX</ref>;<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Previous<sp/>park<sp/>state<sp/>TX<sp/>pin<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="387" refid="struct_u_a_r_t_c_c32_x_x___object_1a75aea8fc10c5c093badf63bd7a947ad9" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a75aea8fc10c5c093badf63bd7a947ad9" kindref="member">txPin</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>TX<sp/>pin<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="388" refid="struct_u_a_r_t_c_c32_x_x___object_1a2a234960a8d783800017bbd5c497315d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="_power_c_c32_x_x_8h_1aed4c2508d1c416af97dbd8a8cb4d2f0f" kindref="member">PowerCC32XX_ParkState</ref><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a2a234960a8d783800017bbd5c497315d" kindref="member">prevParkRTS</ref>;<sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Previous<sp/>park<sp/>state<sp/>of<sp/>RTS<sp/>pin<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="389" refid="struct_u_a_r_t_c_c32_x_x___object_1a6b6acae74b8438763324c2ed7a697994" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint16_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object_1a6b6acae74b8438763324c2ed7a697994" kindref="member">rtsPin</ref>;<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>RTS<sp/>pin<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="390"><highlight class="normal">}<sp/><ref refid="struct_u_a_r_t_c_c32_x_x___object" kindref="compound">UARTCC32XX_Object</ref>,<sp/>*<ref refid="_u_a_r_t_c_c32_x_x_8h_1a7fad69961f8f906467fa2489905ca08c" kindref="member">UARTCC32XX_Handle</ref>;</highlight></codeline>
+<codeline lineno="391"><highlight class="normal"></highlight></codeline>
+<codeline lineno="392"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="393"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="394"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="395"><highlight class="normal"></highlight></codeline>
+<codeline lineno="396"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ti_drivers_uart_UARTCC32XX__include<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart/UARTCC32XX.h"/>
+  </compounddef>
+</doxygen>

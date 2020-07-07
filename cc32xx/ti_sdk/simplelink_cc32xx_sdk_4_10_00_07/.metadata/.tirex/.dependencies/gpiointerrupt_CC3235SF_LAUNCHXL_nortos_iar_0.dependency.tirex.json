@@ -1,0 +1,13 @@
+[
+    {
+        "files": [
+            "+../gpiointerrupt.c -> gpiointerrupt.c",
+            "+../README.md -> README.md",
+            "+../README.html -> README.html",
+            "+../main_nortos.c -> main_nortos.c",
+            "+../gpiointerrupt.syscfg -> gpiointerrupt.syscfg",
+            "+../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_NoRTOS.icf -> CC3235SF_LAUNCHXL_NoRTOS.icf"
+        ]
+    }
+]

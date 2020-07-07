@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_capture_c_c32_x_x___h_w_attrs" kind="struct" language="C++" prot="public">
+    <compoundname>CaptureCC32XX_HWAttrs</compoundname>
+    <includes refid="_capture_c_c32_x_x_8h" local="no">CaptureCC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___h_w_attrs_1ac5041c920a5278c71457744eab23a8e1" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CaptureCC32XX_HWAttrs::capturePin</definition>
+        <argsstring></argsstring>
+        <name>capturePin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies the input pin for the capture event. There are 17 pins available as inputs for capture functionality. Each available pin must map to a specific general purpose timer hardware instance. By specifying this attribute, a fixed 16-bit timer peripheral is used. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="266" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="266" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_capture_c_c32_x_x___h_w_attrs_1a81b082ca9e3b7b444e41404286085549" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t CaptureCC32XX_HWAttrs::intPriority</definition>
+        <argsstring></argsstring>
+        <name>intPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The interrupt priority. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="269" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>CaptureCC32XX Hardware Attributes. </para>    </briefdescription>
+    <detaileddescription>
+<para>Timer hardware attributes that tell the CaptureCC32XX driver specific hardware configurations and interrupt/priority settings.</para><para>A sample structure is shown below: <programlisting><codeline><highlight class="normal">const<sp/>CaptureCC32XX_HWAttrs<sp/>captureCC32XXHWAttrs[]<sp/>=</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.capturePin<sp/>=<sp/>CaptureCC32XX_PIN_04,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/>=<sp/>~0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.capturePin<sp/>=<sp/>CaptureCC32XX_PIN_05,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/>=<sp/>~0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" line="260" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/capture/CaptureCC32XX.h" bodystart="260" bodyend="270"/>
+    <listofallmembers>
+      <member refid="struct_capture_c_c32_x_x___h_w_attrs_1ac5041c920a5278c71457744eab23a8e1" prot="public" virt="non-virtual"><scope>CaptureCC32XX_HWAttrs</scope><name>capturePin</name></member>
+      <member refid="struct_capture_c_c32_x_x___h_w_attrs_1a81b082ca9e3b7b444e41404286085549" prot="public" virt="non-virtual"><scope>CaptureCC32XX_HWAttrs</scope><name>intPriority</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

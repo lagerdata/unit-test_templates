@@ -1,0 +1,24 @@
+package/lib/lib/nortos_cc32xx/startup/startup_cc32xx_ccs.oem4: startup/startup_cc32xx_ccs.c /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/stdint.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/string.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_types.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_ints.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_memmap.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_common_reg.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/interrupt.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_apps_rcm.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/rom_map.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/prcm.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/_ti_config.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/_stdint40.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/stdint.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/cdefs.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/xlocale/_string.h /app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/rom_patch.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/linkage.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/_types.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_stdint.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/_stdint.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_types.h /opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_limits.h 
+startup/startup_cc32xx_ccs.c:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/stdint.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/string.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_types.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_ints.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_memmap.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_common_reg.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/interrupt.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/inc/hw_apps_rcm.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/rom_map.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/prcm.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/_ti_config.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/_stdint40.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/stdint.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/cdefs.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/xlocale/_string.h:
+/app/unity_application/sdk/simplelink_cc32xx_sdk_4_10_00_07/source/ti/devices/cc32xx/driverlib/rom_patch.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/linkage.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/_types.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_stdint.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/sys/_stdint.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_types.h:
+/opt/ti/ccs/tools/compiler/ti-cgt-arm_20.2.1.LTS/include/machine/_limits.h:

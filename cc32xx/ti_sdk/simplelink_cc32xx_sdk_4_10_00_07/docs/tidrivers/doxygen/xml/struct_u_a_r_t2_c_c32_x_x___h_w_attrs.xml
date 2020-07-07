@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs" kind="struct" language="C++" prot="public">
+    <compoundname>UART2CC32XX_HWAttrs</compoundname>
+    <includes refid="_u_a_r_t2_c_c32_x_x_8h" local="no">UART2CC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a6804e40c917611c504e7e23fc099553a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::baseAddr</definition>
+        <argsstring></argsstring>
+        <name>baseAddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART Peripheral&apos;s base address </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="235" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a6aed568c4f1c81609632f48f21bdbdcc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int UART2CC32XX_HWAttrs::intNum</definition>
+        <argsstring></argsstring>
+        <name>intNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART Peripheral&apos;s interrupt vector </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="237" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="237" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a946dc98d340dfb349f352511637c150b" prot="public" static="no" mutable="no">
+        <type>uint8_t</type>
+        <definition>uint8_t UART2CC32XX_HWAttrs::intPriority</definition>
+        <argsstring></argsstring>
+        <name>intPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART Peripheral&apos;s interrupt priority </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="239" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a9c358c83f7fe60ea496befb946c8d1df" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::flowControl</definition>
+        <argsstring></argsstring>
+        <name>flowControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Hardware flow control setting </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="241" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1aa196c8917ab9d2127b2438e91765bf15" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::rxPin</definition>
+        <argsstring></argsstring>
+        <name>rxPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART RX pin assignment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="243" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a754cd759639b93c876be573bfde01d4a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::txPin</definition>
+        <argsstring></argsstring>
+        <name>txPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART TX pin assignment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="245" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1aac68619c5dac9dc346d897015c8d047b" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::ctsPin</definition>
+        <argsstring></argsstring>
+        <name>ctsPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART clear to send (CTS) pin assignment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="247" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="247" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a0231c9bd7f5264905b3407c4e6c8e1fc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::rtsPin</definition>
+        <argsstring></argsstring>
+        <name>rtsPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART request to send (RTS) pin assignment </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="249" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1ab2c1cfc42c3e4fea3084152fbe42816e" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_c_c32_x_x_8h_1a38c91843484377049b4739fd4bd9ef34" kindref="member">UART2CC32XX_FifoThreshold</ref></type>
+        <definition>UART2CC32XX_FifoThreshold UART2CC32XX_HWAttrs::txIntFifoThr</definition>
+        <argsstring></argsstring>
+        <name>txIntFifoThr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART TX interrupt FIFO threshold select </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="251" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a99874c5f08d531309d3c19775da9c18e" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_c_c32_x_x_8h_1a38c91843484377049b4739fd4bd9ef34" kindref="member">UART2CC32XX_FifoThreshold</ref></type>
+        <definition>UART2CC32XX_FifoThreshold UART2CC32XX_HWAttrs::rxIntFifoThr</definition>
+        <argsstring></argsstring>
+        <name>rxIntFifoThr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>UART RX interrupt FIFO threshold select </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="253" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a3bd90964230fea89dda44b2ef1568c38" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::rxDmaChannel</definition>
+        <argsstring></argsstring>
+        <name>rxDmaChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>uDMA channel for RX data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="255" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a59934263e97d05088ebba3798f327e7f" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_HWAttrs::txDmaChannel</definition>
+        <argsstring></argsstring>
+        <name>txDmaChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>uDMA channel for TX data </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="257" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="257" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>UART2CC32XX Hardware attributes. </para>    </briefdescription>
+    <detaileddescription>
+<para>The fields, baseAddr and intNum are used by driverlib APIs and therefore must be populated by driverlib macro definitions. These definitions are found under the device family in:<itemizedlist>
+<listitem><para>inc/hw_memmap.h</para></listitem><listitem><para>inc/hw_ints.h</para></listitem><listitem><para>driverlib/uart.h</para></listitem></itemizedlist>
+</para><para>intPriority is the UART peripheral&apos;s interrupt priority, as defined by the underlying OS. It is passed unmodified to the underlying OS&apos;s interrupt handler creation code, so you need to refer to the OS documentation for usage. For example, for SYS/BIOS applications, refer to the ti.sysbios.family.arm.m3.Hwi documentation for SYS/BIOS usage of interrupt priorities. If the driver uses the ti.dpl interface instead of making OS calls directly, then the HwiP port handles the interrupt priority in an OS specific way. In the case of the SYS/BIOS port, intPriority is passed unmodified to Hwi_create(). The CC32XX uses three of the priority bits, meaning ~0 has the same effect as (7 &lt;&lt; 5). <verbatim>  (7 &lt;&lt; 5) will apply the lowest priority.
+  (1 &lt;&lt; 5) will apply the highest priority.
+</verbatim></para><para>Setting the priority to 0 is not supported by this driver. HWI&apos;s with priority 0 ignore the HWI dispatcher to support zero-latency interrupts, thus invalidating the critical sections in this driver.</para><para>A sample structure is shown below: <programlisting><codeline><highlight class="normal">const<sp/>UART2CC32XX_HWAttrs<sp/>UART2CC32XXHWAttrs[]<sp/>=<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.baseAddr<sp/><sp/><sp/><sp/><sp/>=<sp/>UARTA0_BASE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intNum<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>INT_UARTA0,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/><sp/>=<sp/>(~0),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.flowControl<sp/><sp/>=<sp/>UART2CC32XX_FLOWCTRL_NONE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_57_UART0_RX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_55_UART0_TX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ctsPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_UNASSIGNED,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rtsPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_UNASSIGNED,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txIntFifoThr<sp/>=<sp/>UART2CC32XX_FIFO_THRESHOLD_1_8,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxIntFifoThr<sp/>=<sp/>UART2CC32XX_FIFO_THRESHOLD_4_8,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxDmaChannel<sp/>=<sp/>UDMA_CH8_UARTA0_RX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txDmaChannel<sp/>=<sp/>UDMA_CH9_UARTA0_TX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.baseAddr<sp/><sp/><sp/><sp/><sp/>=<sp/>UARTA1_BASE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intNum<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>INT_UARTA1,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/><sp/>=<sp/>(~0),</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.flowControl<sp/><sp/>=<sp/>UART2CC32XX_FLOWCTRL_NONE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_08_UART1_RX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_07_UART1_TX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.ctsPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_UNASSIGNED,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rtsPin<sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/>UART2CC32XX_PIN_UNASSIGNED,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txIntFifoThr<sp/>=<sp/>UART2CC32XX_FIFO_THRESHOLD_1_8,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxIntFifoThr<sp/>=<sp/>UART2CC32XX_FIFO_THRESHOLD_4_8,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.rxDmaChannel<sp/>=<sp/>UDMA_CH10_UARTA1_RX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.txDmaChannel<sp/>=<sp/>UDMA_CH11_UARTA1_TX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting></para><para>To enable flow control, the .ctsPin and/or .rtsPin must be assigned. In addition, .flowControl must be set to UART2CC32XX_FLOWCTL_HARDWARE. </para>    </detaileddescription>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="233" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="233" bodyend="258"/>
+    <listofallmembers>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a6804e40c917611c504e7e23fc099553a" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>baseAddr</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1aac68619c5dac9dc346d897015c8d047b" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>ctsPin</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a9c358c83f7fe60ea496befb946c8d1df" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>flowControl</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a6aed568c4f1c81609632f48f21bdbdcc" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>intNum</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a946dc98d340dfb349f352511637c150b" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>intPriority</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a0231c9bd7f5264905b3407c4e6c8e1fc" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>rtsPin</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a3bd90964230fea89dda44b2ef1568c38" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>rxDmaChannel</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a99874c5f08d531309d3c19775da9c18e" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>rxIntFifoThr</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1aa196c8917ab9d2127b2438e91765bf15" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>rxPin</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a59934263e97d05088ebba3798f327e7f" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>txDmaChannel</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1ab2c1cfc42c3e4fea3084152fbe42816e" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>txIntFifoThr</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___h_w_attrs_1a754cd759639b93c876be573bfde01d4a" prot="public" virt="non-virtual"><scope>UART2CC32XX_HWAttrs</scope><name>txPin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

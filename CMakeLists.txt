@@ -8,3 +8,5 @@ project(unity-test-templates VERSION 1.0 LANGUAGES C ASM)
 add_subdirectory(nrf52)
 
 add_subdirectory(atsame70)
+
+add_subdirectory(cc32xx)
