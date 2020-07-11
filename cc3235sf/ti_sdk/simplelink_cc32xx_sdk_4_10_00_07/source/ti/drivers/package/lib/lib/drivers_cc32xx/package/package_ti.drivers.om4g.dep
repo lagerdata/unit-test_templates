@@ -1,0 +1,13 @@
+package/lib/lib/drivers_cc32xx/package/package_ti.drivers.om4g:  package/package_ti.drivers.c  /opt/ti/xdctools_3_61_00_16_core/packages/xdc/std.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h  /app/kernel/tirtos/packages/gnu/targets/arm/std.h  /app/kernel/tirtos/packages/gnu/targets/arm/M4.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h
+package/package_ti.drivers.c:
+/opt/ti/xdctools_3_61_00_16_core/packages/xdc/std.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdarg.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
+/app/kernel/tirtos/packages/gnu/targets/arm/std.h:
+/app/kernel/tirtos/packages/gnu/targets/arm/M4.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h:

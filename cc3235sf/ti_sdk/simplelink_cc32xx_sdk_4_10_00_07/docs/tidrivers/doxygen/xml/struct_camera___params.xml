@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_camera___params" kind="struct" language="C++" prot="public">
+    <compoundname>Camera_Params</compoundname>
+    <includes refid="_camera_8h" local="no">Camera.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_camera___params_1ab370847eb029c1b816830f6a2fb1956f" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a74c8a8a13eebddea16c33c726d096ba8" kindref="member">Camera_CaptureMode</ref></type>
+        <definition>Camera_CaptureMode Camera_Params::captureMode</definition>
+        <argsstring></argsstring>
+        <name>captureMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; Mode for camera capture Output clock to set divider </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="401" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="401" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a0b8e5d861228a67c891ac7737c3546af" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Camera_Params::outputClock</definition>
+        <argsstring></argsstring>
+        <name>outputClock</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polarity of Hsync </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="404" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="404" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a08f9574d65f148d071452c4ae0841d4b" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a44b110de33cc32adba6d4a5807665987" kindref="member">Camera_HSyncPolarity</ref></type>
+        <definition>Camera_HSyncPolarity Camera_Params::hsyncPolarity</definition>
+        <argsstring></argsstring>
+        <name>hsyncPolarity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Polarity of VSync </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="407" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="407" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a707b9746ec88eb4d183a7471fd8151bf" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a05347818dd7d8986a24a0fe1bc74d412" kindref="member">Camera_VSyncPolarity</ref></type>
+        <definition>Camera_VSyncPolarity Camera_Params::vsyncPolarity</definition>
+        <argsstring></argsstring>
+        <name>vsyncPolarity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pixel clock configuration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="410" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="410" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a55279b026ec9bee61c7f3fedef456d64" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a081a0e4af0b04d76a5476d22e6cf8657" kindref="member">Camera_PixelClkConfig</ref></type>
+        <definition>Camera_PixelClkConfig Camera_Params::pixelClkConfig</definition>
+        <argsstring></argsstring>
+        <name>pixelClkConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>camera capture byte order </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="413" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="413" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1ac23766c87406fdf6b9aca3a3b9b4e15c" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1ae5c1282ca99dd27ba0faf0f16f6e9904" kindref="member">Camera_ByteOrder</ref></type>
+        <definition>Camera_ByteOrder Camera_Params::byteOrder</definition>
+        <argsstring></argsstring>
+        <name>byteOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera-Sensor synchronization </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="416" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="416" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1ad32edd6c21bc9952deeb917034ca0f45" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a741d469cc903899255a1d3e76fdce47b" kindref="member">Camera_IfSynchoronisation</ref></type>
+        <definition>Camera_IfSynchoronisation Camera_Params::interfaceSync</definition>
+        <argsstring></argsstring>
+        <name>interfaceSync</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera stop configuration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="419" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="419" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a89b5c7168ff120da5fc7461fb71499aa" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a783564f838bc718a5b56f114027f5185" kindref="member">Camera_StopCaptureConfig</ref></type>
+        <definition>Camera_StopCaptureConfig Camera_Params::stopConfig</definition>
+        <argsstring></argsstring>
+        <name>stopConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Camera start configuration </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="422" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="422" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1aa754cc494ff462b01a7ed647742b15af" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1a97037da7c87b817ddb71ec7100c69ca5" kindref="member">Camera_StartCaptureConfig</ref></type>
+        <definition>Camera_StartCaptureConfig Camera_Params::startConfig</definition>
+        <argsstring></argsstring>
+        <name>startConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Timeout for capture semaphore </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="425" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a7a66a4013966579c58e2d02ad788d6ce" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t Camera_Params::captureTimeout</definition>
+        <argsstring></argsstring>
+        <name>captureTimeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pointer to capture callback </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="428" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="428" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a2bc1db1262e09919a7711301cd784fda" prot="public" static="no" mutable="no">
+        <type><ref refid="_camera_8h_1aba0b8eb4e05a4adb316be6390d7c3ade" kindref="member">Camera_Callback</ref></type>
+        <definition>Camera_Callback Camera_Params::captureCallback</definition>
+        <argsstring></argsstring>
+        <name>captureCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Custom argument used by driver implementation </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="431" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="431" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_camera___params_1a35814b7c3aea7ecb153cbe05371cad27" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* Camera_Params::custom</definition>
+        <argsstring></argsstring>
+        <name>custom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="434" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="434" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Camera Parameters. </para>    </briefdescription>
+    <detaileddescription>
+<para>Camera parameters are used to with the <ref refid="_camera_8h_1a6efd7498899d107ce3c92b96fbaec3c0" kindref="member">Camera_open()</ref> call. Default values for these parameters are set using <ref refid="_camera_8h_1a522620ae3e5fb202b1f46f5535619564" kindref="member">Camera_Params_init()</ref>.</para><para>If Camera_CaptureMode is set to Camera_MODE_BLOCKING then Camera_capture function calls will block thread execution until the capture has completed.</para><para>If Camera_CaptureMode is set to Camera_MODE_CALLBACK then Camera_capture will not block thread execution and it will call the function specified by captureCallbackFxn.</para><para><simplesect kind="see"><para><ref refid="_camera_8h_1a522620ae3e5fb202b1f46f5535619564" kindref="member">Camera_Params_init()</ref> </para></simplesect>
+</para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="37">
+        <label>Camera_FxnTable</label>
+        <link refid="struct_camera___fxn_table"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>closeFxn</edgelabel>
+          <edgelabel>initFxn</edgelabel>
+          <edgelabel>captureFxn</edgelabel>
+          <edgelabel>controlFxn</edgelabel>
+          <edgelabel>openFxn</edgelabel>
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Camera_Params</label>
+        <link refid="struct_camera___params"/>
+        <childnode refid="36" relation="usage">
+          <edgelabel>captureCallback</edgelabel>
+        </childnode>
+      </node>
+      <node id="36">
+        <label>Camera_Config_</label>
+        <link refid="struct_camera___config__"/>
+        <childnode refid="37" relation="usage">
+          <edgelabel>fxnTablePtr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" line="399" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/Camera.h" bodystart="399" bodyend="435"/>
+    <listofallmembers>
+      <member refid="struct_camera___params_1ac23766c87406fdf6b9aca3a3b9b4e15c" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>byteOrder</name></member>
+      <member refid="struct_camera___params_1a2bc1db1262e09919a7711301cd784fda" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>captureCallback</name></member>
+      <member refid="struct_camera___params_1ab370847eb029c1b816830f6a2fb1956f" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>captureMode</name></member>
+      <member refid="struct_camera___params_1a7a66a4013966579c58e2d02ad788d6ce" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>captureTimeout</name></member>
+      <member refid="struct_camera___params_1a35814b7c3aea7ecb153cbe05371cad27" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>custom</name></member>
+      <member refid="struct_camera___params_1a08f9574d65f148d071452c4ae0841d4b" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>hsyncPolarity</name></member>
+      <member refid="struct_camera___params_1ad32edd6c21bc9952deeb917034ca0f45" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>interfaceSync</name></member>
+      <member refid="struct_camera___params_1a0b8e5d861228a67c891ac7737c3546af" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>outputClock</name></member>
+      <member refid="struct_camera___params_1a55279b026ec9bee61c7f3fedef456d64" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>pixelClkConfig</name></member>
+      <member refid="struct_camera___params_1aa754cc494ff462b01a7ed647742b15af" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>startConfig</name></member>
+      <member refid="struct_camera___params_1a89b5c7168ff120da5fc7461fb71499aa" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>stopConfig</name></member>
+      <member refid="struct_camera___params_1a707b9746ec88eb4d183a7471fd8151bf" prot="public" virt="non-virtual"><scope>Camera_Params</scope><name>vsyncPolarity</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+[
+    {
+        "files": [
+            "+../../empty_legacy.c -> empty_legacy.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../../../../../../../source/ti/boards/CC3235S_LAUNCHXL/Board.html -> Board.html",
+            "+../../../../../../../source/ti/boards/CC3235S_LAUNCHXL/Board_legacy.html -> Board_legacy.html",
+            "+../../Board.h -> Board.h",
+            "+../../CC3235S_LAUNCHXL.c -> CC3235S_LAUNCHXL.c",
+            "+../../CC3235S_LAUNCHXL.h -> CC3235S_LAUNCHXL.h",
+            "+CC3235S_LAUNCHXL_TIRTOS.cmd -> CC3235S_LAUNCHXL_TIRTOS.cmd"
+        ]
+    }
+]

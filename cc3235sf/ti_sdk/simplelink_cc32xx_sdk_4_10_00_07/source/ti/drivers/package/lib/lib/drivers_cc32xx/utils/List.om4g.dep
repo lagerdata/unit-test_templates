@@ -1,0 +1,25 @@
+package/lib/lib/drivers_cc32xx/./utils/List.om4g: utils/List.c  /app/source/ti/drivers/dpl/HwiP.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h  /app/source/ti/drivers/utils/List.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdlib.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/ieeefp.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_ansi.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/newlib-nano/newlib.h  /usr/include/newlib/sys/config.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/reent.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_ansi.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_types.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_types.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/lock.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/cdefs.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/stdlib.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/alloca.h
+utils/List.c:
+/app/source/ti/drivers/dpl/HwiP.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
+/app/source/ti/drivers/utils/List.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdlib.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/ieeefp.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_ansi.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/newlib-nano/newlib.h:
+/usr/include/newlib/sys/config.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/reent.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_ansi.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_types.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_types.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/lock.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/cdefs.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/stdlib.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/alloca.h:

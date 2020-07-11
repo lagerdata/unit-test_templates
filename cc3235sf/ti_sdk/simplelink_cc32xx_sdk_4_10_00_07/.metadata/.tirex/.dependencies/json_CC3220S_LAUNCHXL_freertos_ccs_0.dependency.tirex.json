@@ -1,0 +1,13 @@
+[
+    {
+        "files": [
+            "+../../json.c -> json.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../json.syscfg -> json.syscfg",
+            "+../main_freertos.c -> main_freertos.c",
+            "+../../../../../../../source/ti/boards/CC3220S_LAUNCHXL/Board.html -> Board.html",
+            "+CC3220S_LAUNCHXL_FREERTOS.cmd -> CC3220S_LAUNCHXL_FREERTOS.cmd"
+        ]
+    }
+]

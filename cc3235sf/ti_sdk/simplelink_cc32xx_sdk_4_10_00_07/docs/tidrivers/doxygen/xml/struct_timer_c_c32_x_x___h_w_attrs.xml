@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_timer_c_c32_x_x___h_w_attrs" kind="struct" language="C++" prot="public">
+    <compoundname>TimerCC32XX_HWAttrs</compoundname>
+    <includes refid="_timer_c_c32_x_x_8h" local="no">TimerCC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_timer_c_c32_x_x___h_w_attrs_1a7e2a682bbe83b63185fcc2b8834529dc" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t TimerCC32XX_HWAttrs::baseAddress</definition>
+        <argsstring></argsstring>
+        <name>baseAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The base address of the timer peripheral. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" line="168" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_timer_c_c32_x_x___h_w_attrs_1aa8bf77bb937f5558d3bb897b87e2c650" prot="public" static="no" mutable="no">
+        <type><ref refid="_timer_c_c32_x_x_8h_1a97bb0318f72dfc66cb16aa018a374216" kindref="member">TimerCC32XX_SubTimer</ref></type>
+        <definition>TimerCC32XX_SubTimer TimerCC32XX_HWAttrs::subTimer</definition>
+        <argsstring></argsstring>
+        <name>subTimer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Specifies a full width timer or half-width timer. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" line="171" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_timer_c_c32_x_x___h_w_attrs_1a01c18153f87ede566ded07a305eb3b3a" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t TimerCC32XX_HWAttrs::intNum</definition>
+        <argsstring></argsstring>
+        <name>intNum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The hardware interrupt number for the timer peripheral. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" line="174" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_timer_c_c32_x_x___h_w_attrs_1a89f440e0e07dd631eeb50cf8be973044" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t TimerCC32XX_HWAttrs::intPriority</definition>
+        <argsstring></argsstring>
+        <name>intPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The interrupt priority. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" line="177" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" bodystart="177" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>TimerCC32XX Hardware Attributes. </para>    </briefdescription>
+    <detaileddescription>
+<para>Timer hardware attributes that tell the TimerCC32XX driver specific hardware configurations and interrupt/priority settings.</para><para>A sample structure is shown below: <programlisting><codeline><highlight class="normal">const<sp/>TimerCC32XX_HWAttrs<sp/>timerCC32XXHWAttrs[]<sp/>=</highlight></codeline>
+<codeline><highlight class="normal">{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.baseAddress<sp/>=<sp/>TIMERA0_BASE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.subTimer<sp/>=<sp/>TimerCC32XX_timer32,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intNum<sp/>=<sp/>INT_TIMERA0A,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/>=<sp/>~0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.baseAddress<sp/>=<sp/>TIMERA1_BASE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.subTimer<sp/>=<sp/>TimerCC32XX_timer16A,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intNum<sp/>=<sp/>INT_TIMERA1A,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/>=<sp/>~0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>},</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.baseAddress<sp/>=<sp/>TIMERA1_BASE,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.subTimer<sp/>=<sp/>TimerCC32XX_timer16B,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intNum<sp/>=<sp/>INT_TIMERA1B,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/>=<sp/>~0</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" line="166" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/timer/TimerCC32XX.h" bodystart="166" bodyend="178"/>
+    <listofallmembers>
+      <member refid="struct_timer_c_c32_x_x___h_w_attrs_1a7e2a682bbe83b63185fcc2b8834529dc" prot="public" virt="non-virtual"><scope>TimerCC32XX_HWAttrs</scope><name>baseAddress</name></member>
+      <member refid="struct_timer_c_c32_x_x___h_w_attrs_1a01c18153f87ede566ded07a305eb3b3a" prot="public" virt="non-virtual"><scope>TimerCC32XX_HWAttrs</scope><name>intNum</name></member>
+      <member refid="struct_timer_c_c32_x_x___h_w_attrs_1a89f440e0e07dd631eeb50cf8be973044" prot="public" virt="non-virtual"><scope>TimerCC32XX_HWAttrs</scope><name>intPriority</name></member>
+      <member refid="struct_timer_c_c32_x_x___h_w_attrs_1aa8bf77bb937f5558d3bb897b87e2c650" prot="public" virt="non-virtual"><scope>TimerCC32XX_HWAttrs</scope><name>subTimer</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

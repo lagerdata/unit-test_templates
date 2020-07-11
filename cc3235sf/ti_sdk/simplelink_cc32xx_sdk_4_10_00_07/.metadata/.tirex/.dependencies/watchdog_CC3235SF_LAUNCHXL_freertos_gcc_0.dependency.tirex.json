@@ -1,0 +1,13 @@
+[
+    {
+        "files": [
+            "+../../watchdog.c -> watchdog.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../main_freertos.c -> main_freertos.c",
+            "+../watchdog.syscfg -> watchdog.syscfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_FREERTOS.lds -> CC3235SF_LAUNCHXL_FREERTOS.lds"
+        ]
+    }
+]

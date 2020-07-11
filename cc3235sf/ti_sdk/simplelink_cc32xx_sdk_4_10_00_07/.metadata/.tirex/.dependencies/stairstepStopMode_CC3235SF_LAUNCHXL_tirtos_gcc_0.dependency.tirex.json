@@ -1,0 +1,15 @@
+[
+    {
+        "files": [
+            "+../../stairstep.c -> stairstep.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../stairstep.syscfg -> stairstep.syscfg",
+            "+../../performance.rov.json -> performance.rov.json",
+            "+../stairstep.cfg -> stairstep.cfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.lds -> CC3235SF_LAUNCHXL_TIRTOS.lds",
+            "+../makefile.defs -> makefile.defs"
+        ]
+    }
+]

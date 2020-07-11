@@ -1,0 +1,198 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="_a_d_c_c_c32_x_x_8h" kind="file" language="C++">
+    <compoundname>ADCCC32XX.h</compoundname>
+    <includes local="no">stdint.h</includes>
+    <includes local="no">stdbool.h</includes>
+    <includes refid="_a_d_c_8h" local="no">ti/drivers/ADC.h</includes>
+    <incdepgraph>
+      <node id="7">
+        <label>stdbool.h</label>
+      </node>
+      <node id="6">
+        <label>stdint.h</label>
+      </node>
+      <node id="5">
+        <label>ADCCC32XX.h</label>
+        <link refid="_a_d_c_c_c32_x_x_8h"/>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>ti/drivers/ADC.h</label>
+        <link refid="_a_d_c_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_a_d_c_c_c32_x_x___h_w_attrs_v1" prot="public">ADCCC32XX_HWAttrsV1</innerclass>
+    <innerclass refid="struct_a_d_c_c_c32_x_x___state" prot="public">ADCCC32XX_State</innerclass>
+    <innerclass refid="struct_a_d_c_c_c32_x_x___object" prot="public">ADCCC32XX_Object</innerclass>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="_a_d_c_c_c32_x_x_8h_1a06bc9acbe3d2a5fbbd5ef6014073d45a" prot="public" static="no">
+        <name>ADCCC32XX_PIN_57_CH_0</name>
+        <initializer>(ADC_CH_0 &lt;&lt; 8) | 0x38</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>&lt; PIN 57 is used for ADC channel 0 PIN 58 is used for ADC channel 1 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" line="64" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_d_c_c_c32_x_x_8h_1ad3624f019b5f781f0e7cab64b372204c" prot="public" static="no">
+        <name>ADCCC32XX_PIN_58_CH_1</name>
+        <initializer>(ADC_CH_1 &lt;&lt; 8) | 0x39</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 59 is used for ADC channel 2 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" line="66" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_d_c_c_c32_x_x_8h_1a307156243c7d41fd67914223bc078e12" prot="public" static="no">
+        <name>ADCCC32XX_PIN_59_CH_2</name>
+        <initializer>(ADC_CH_2 &lt;&lt; 8) | 0x3a</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>PIN 60 is used for ADC channel 3 </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" line="68" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="_a_d_c_c_c32_x_x_8h_1ac53870d0f1947fa3ece1315f0062d0f5" prot="public" static="no">
+        <name>ADCCC32XX_PIN_60_CH_3</name>
+        <initializer>(ADC_CH_3 &lt;&lt; 8) | 0x3b</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" line="70" column="9" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="_a_d_c_c_c32_x_x_8h_1a5571574dfaed35ccc55827cc34cc2090" prot="public" static="no" mutable="no">
+        <type>const <ref refid="struct_a_d_c___fxn_table" kindref="compound">ADC_FxnTable</ref></type>
+        <definition>const ADC_FxnTable ADCCC32XX_fxnTable</definition>
+        <argsstring></argsstring>
+        <name>ADCCC32XX_fxnTable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h" line="73" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>ADC driver implementation for the ADC peripheral on CC32XX. </para>    </briefdescription>
+    <detaileddescription>
+<para><hruler/>
+</para><para>This ADC driver implementation is designed to operate on a CC32XX ADC peripheral.</para><para>Refer to <ref refid="_a_d_c_8h" kindref="compound">ADC.h</ref> for a complete description of APIs &amp; example of use. </para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="2"><highlight class="comment"><sp/>*<sp/>Copyright<sp/>(c)<sp/>2016-2020,<sp/>Texas<sp/>Instruments<sp/>Incorporated</highlight></codeline>
+<codeline lineno="3"><highlight class="comment"><sp/>*<sp/>All<sp/>rights<sp/>reserved.</highlight></codeline>
+<codeline lineno="4"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="5"><highlight class="comment"><sp/>*<sp/>Redistribution<sp/>and<sp/>use<sp/>in<sp/>source<sp/>and<sp/>binary<sp/>forms,<sp/>with<sp/>or<sp/>without</highlight></codeline>
+<codeline lineno="6"><highlight class="comment"><sp/>*<sp/>modification,<sp/>are<sp/>permitted<sp/>provided<sp/>that<sp/>the<sp/>following<sp/>conditions</highlight></codeline>
+<codeline lineno="7"><highlight class="comment"><sp/>*<sp/>are<sp/>met:</highlight></codeline>
+<codeline lineno="8"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="9"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>of<sp/>source<sp/>code<sp/>must<sp/>retain<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="10"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer.</highlight></codeline>
+<codeline lineno="11"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="12"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Redistributions<sp/>in<sp/>binary<sp/>form<sp/>must<sp/>reproduce<sp/>the<sp/>above<sp/>copyright</highlight></codeline>
+<codeline lineno="13"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>notice,<sp/>this<sp/>list<sp/>of<sp/>conditions<sp/>and<sp/>the<sp/>following<sp/>disclaimer<sp/>in<sp/>the</highlight></codeline>
+<codeline lineno="14"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>documentation<sp/>and/or<sp/>other<sp/>materials<sp/>provided<sp/>with<sp/>the<sp/>distribution.</highlight></codeline>
+<codeline lineno="15"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="16"><highlight class="comment"><sp/>*<sp/>*<sp/><sp/>Neither<sp/>the<sp/>name<sp/>of<sp/>Texas<sp/>Instruments<sp/>Incorporated<sp/>nor<sp/>the<sp/>names<sp/>of</highlight></codeline>
+<codeline lineno="17"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>its<sp/>contributors<sp/>may<sp/>be<sp/>used<sp/>to<sp/>endorse<sp/>or<sp/>promote<sp/>products<sp/>derived</highlight></codeline>
+<codeline lineno="18"><highlight class="comment"><sp/>*<sp/><sp/><sp/><sp/>from<sp/>this<sp/>software<sp/>without<sp/>specific<sp/>prior<sp/>written<sp/>permission.</highlight></codeline>
+<codeline lineno="19"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="20"><highlight class="comment"><sp/>*<sp/>THIS<sp/>SOFTWARE<sp/>IS<sp/>PROVIDED<sp/>BY<sp/>THE<sp/>COPYRIGHT<sp/>HOLDERS<sp/>AND<sp/>CONTRIBUTORS<sp/>&quot;AS<sp/>IS&quot;</highlight></codeline>
+<codeline lineno="21"><highlight class="comment"><sp/>*<sp/>AND<sp/>ANY<sp/>EXPRESS<sp/>OR<sp/>IMPLIED<sp/>WARRANTIES,<sp/>INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="22"><highlight class="comment"><sp/>*<sp/>THE<sp/>IMPLIED<sp/>WARRANTIES<sp/>OF<sp/>MERCHANTABILITY<sp/>AND<sp/>FITNESS<sp/>FOR<sp/>A<sp/>PARTICULAR</highlight></codeline>
+<codeline lineno="23"><highlight class="comment"><sp/>*<sp/>PURPOSE<sp/>ARE<sp/>DISCLAIMED.<sp/>IN<sp/>NO<sp/>EVENT<sp/>SHALL<sp/>THE<sp/>COPYRIGHT<sp/>OWNER<sp/>OR</highlight></codeline>
+<codeline lineno="24"><highlight class="comment"><sp/>*<sp/>CONTRIBUTORS<sp/>BE<sp/>LIABLE<sp/>FOR<sp/>ANY<sp/>DIRECT,<sp/>INDIRECT,<sp/>INCIDENTAL,<sp/>SPECIAL,</highlight></codeline>
+<codeline lineno="25"><highlight class="comment"><sp/>*<sp/>EXEMPLARY,<sp/>OR<sp/>CONSEQUENTIAL<sp/>DAMAGES<sp/>(INCLUDING,<sp/>BUT<sp/>NOT<sp/>LIMITED<sp/>TO,</highlight></codeline>
+<codeline lineno="26"><highlight class="comment"><sp/>*<sp/>PROCUREMENT<sp/>OF<sp/>SUBSTITUTE<sp/>GOODS<sp/>OR<sp/>SERVICES;<sp/>LOSS<sp/>OF<sp/>USE,<sp/>DATA,<sp/>OR<sp/>PROFITS;</highlight></codeline>
+<codeline lineno="27"><highlight class="comment"><sp/>*<sp/>OR<sp/>BUSINESS<sp/>INTERRUPTION)<sp/>HOWEVER<sp/>CAUSED<sp/>AND<sp/>ON<sp/>ANY<sp/>THEORY<sp/>OF<sp/>LIABILITY,</highlight></codeline>
+<codeline lineno="28"><highlight class="comment"><sp/>*<sp/>WHETHER<sp/>IN<sp/>CONTRACT,<sp/>STRICT<sp/>LIABILITY,<sp/>OR<sp/>TORT<sp/>(INCLUDING<sp/>NEGLIGENCE<sp/>OR</highlight></codeline>
+<codeline lineno="29"><highlight class="comment"><sp/>*<sp/>OTHERWISE)<sp/>ARISING<sp/>IN<sp/>ANY<sp/>WAY<sp/>OUT<sp/>OF<sp/>THE<sp/>USE<sp/>OF<sp/>THIS<sp/>SOFTWARE,</highlight></codeline>
+<codeline lineno="30"><highlight class="comment"><sp/>*<sp/>EVEN<sp/>IF<sp/>ADVISED<sp/>OF<sp/>THE<sp/>POSSIBILITY<sp/>OF<sp/>SUCH<sp/>DAMAGE.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"></highlight><highlight class="comment">/*!****************************************************************************</highlight></codeline>
+<codeline lineno="33"><highlight class="comment"><sp/>*<sp/><sp/>@file<sp/><sp/><sp/><sp/><sp/><sp/><sp/>ADCCC32XX.h</highlight></codeline>
+<codeline lineno="34"><highlight class="comment"><sp/>*<sp/><sp/>@brief<sp/><sp/><sp/><sp/><sp/><sp/>ADC<sp/>driver<sp/>implementation<sp/>for<sp/>the<sp/>ADC<sp/>peripheral<sp/>on<sp/>CC32XX</highlight></codeline>
+<codeline lineno="35"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="36"><highlight class="comment"><sp/>*<sp/><sp/>This<sp/>ADC<sp/>driver<sp/>implementation<sp/>is<sp/>designed<sp/>to<sp/>operate<sp/>on<sp/>a<sp/>CC32XX<sp/>ADC</highlight></codeline>
+<codeline lineno="37"><highlight class="comment"><sp/>*<sp/><sp/>peripheral.</highlight></codeline>
+<codeline lineno="38"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="39"><highlight class="comment"><sp/>*<sp/><sp/>Refer<sp/>to<sp/>@ref<sp/>ADC.h<sp/>for<sp/>a<sp/>complete<sp/>description<sp/>of<sp/>APIs<sp/>&amp;<sp/>example<sp/>of<sp/>use.</highlight></codeline>
+<codeline lineno="40"><highlight class="comment"><sp/>*</highlight></codeline>
+<codeline lineno="41"><highlight class="comment"><sp/>******************************************************************************</highlight></codeline>
+<codeline lineno="42"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>ti_drivers_adc_ADCCC32XX__include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>ti_drivers_adc_ADCCC32XX__include</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdint.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;stdbool.h&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;<ref refid="_a_d_c_8h" kindref="compound">ti/drivers/ADC.h</ref>&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&quot;C&quot;</highlight><highlight class="normal"><sp/>{</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight><highlight class="comment">/*</highlight></codeline>
+<codeline lineno="56"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>bits<sp/>in<sp/>the<sp/>pin<sp/>mode<sp/>macros<sp/>are<sp/>as<sp/>follows:</highlight></codeline>
+<codeline lineno="57"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>lower<sp/>8<sp/>bits<sp/>of<sp/>the<sp/>macro<sp/>refer<sp/>to<sp/>the<sp/>pin,<sp/>offset<sp/>by<sp/>1,<sp/>to<sp/>match</highlight></codeline>
+<codeline lineno="58"><highlight class="comment"><sp/>*<sp/><sp/>driverlib<sp/>pin<sp/>defines.</highlight></codeline>
+<codeline lineno="59"><highlight class="comment"><sp/>*<sp/><sp/>The<sp/>upper<sp/>16<sp/>bits<sp/>is<sp/>the<sp/>value<sp/>that<sp/>can<sp/>be<sp/>passed<sp/>to<sp/>APIs<sp/>as<sp/>the</highlight></codeline>
+<codeline lineno="60"><highlight class="comment"><sp/>*<sp/><sp/>ulChannel<sp/>parameter.</highlight></codeline>
+<codeline lineno="61"><highlight class="comment"><sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="62"><highlight class="normal"></highlight></codeline>
+<codeline lineno="64" refid="_a_d_c_c_c32_x_x_8h_1a06bc9acbe3d2a5fbbd5ef6014073d45a" refkind="member"><highlight class="preprocessor">#define<sp/>ADCCC32XX_PIN_57_CH_0<sp/><sp/>(ADC_CH_0<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>0x38</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="65"><highlight class="normal"></highlight></codeline>
+<codeline lineno="66" refid="_a_d_c_c_c32_x_x_8h_1ad3624f019b5f781f0e7cab64b372204c" refkind="member"><highlight class="preprocessor">#define<sp/>ADCCC32XX_PIN_58_CH_1<sp/><sp/>(ADC_CH_1<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>0x39</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="68" refid="_a_d_c_c_c32_x_x_8h_1a307156243c7d41fd67914223bc078e12" refkind="member"><highlight class="preprocessor">#define<sp/>ADCCC32XX_PIN_59_CH_2<sp/><sp/>(ADC_CH_2<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>0x3a</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"></highlight></codeline>
+<codeline lineno="70" refid="_a_d_c_c_c32_x_x_8h_1ac53870d0f1947fa3ece1315f0062d0f5" refkind="member"><highlight class="preprocessor">#define<sp/>ADCCC32XX_PIN_60_CH_3<sp/><sp/>(ADC_CH_3<sp/>&lt;&lt;<sp/>8)<sp/>|<sp/>0x3b</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="71"><highlight class="normal"></highlight></codeline>
+<codeline lineno="72"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>ADC<sp/>function<sp/>table<sp/>pointer<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="73"><highlight class="normal"></highlight><highlight class="keyword">extern</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="struct_a_d_c___fxn_table" kindref="compound">ADC_FxnTable</ref><sp/><ref refid="_a_d_c_c_c32_x_x_8h_1a5571574dfaed35ccc55827cc34cc2090" kindref="member">ADCCC32XX_fxnTable</ref>;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"></highlight></codeline>
+<codeline lineno="91" refid="struct_a_d_c_c_c32_x_x___h_w_attrs_v1" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="92" refid="struct_a_d_c_c_c32_x_x___h_w_attrs_v1_1a7d2d9078ddb93d1f02e3fb1f8a637ad6" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint_fast16_t<sp/><ref refid="struct_a_d_c_c_c32_x_x___h_w_attrs_v1_1a7d2d9078ddb93d1f02e3fb1f8a637ad6" kindref="member">adcPin</ref>;</highlight></codeline>
+<codeline lineno="93"><highlight class="normal">}<sp/><ref refid="struct_a_d_c_c_c32_x_x___h_w_attrs_v1" kindref="compound">ADCCC32XX_HWAttrsV1</ref>;</highlight></codeline>
+<codeline lineno="94"><highlight class="normal"></highlight></codeline>
+<codeline lineno="100" refid="struct_a_d_c_c_c32_x_x___state" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="101" refid="struct_a_d_c_c_c32_x_x___state_1ae608531d5facb94f70a3abd4a479cb9b" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint_fast32_t<sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_d_c_c_c32_x_x___state_1ae608531d5facb94f70a3abd4a479cb9b" kindref="member">baseAddr</ref>;</highlight></codeline>
+<codeline lineno="102" refid="struct_a_d_c_c_c32_x_x___state_1a4243f13d0e34a969d4728af6c0aa212c" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/>uint_least8_t<sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_d_c_c_c32_x_x___state_1a4243f13d0e34a969d4728af6c0aa212c" kindref="member">numOpenChannels</ref>;</highlight></codeline>
+<codeline lineno="103"><highlight class="normal">}<sp/><ref refid="struct_a_d_c_c_c32_x_x___state" kindref="compound">ADCCC32XX_State</ref>;</highlight></codeline>
+<codeline lineno="104"><highlight class="normal"></highlight></codeline>
+<codeline lineno="110" refid="struct_a_d_c_c_c32_x_x___object" refkind="compound"><highlight class="keyword">typedef</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">struct<sp/></highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="111" refid="struct_a_d_c_c_c32_x_x___object_1a0e0e9f63a83b28908e00c7e489d4c1e4" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="struct_a_d_c_c_c32_x_x___object_1a0e0e9f63a83b28908e00c7e489d4c1e4" kindref="member">isOpen</ref>;</highlight></codeline>
+<codeline lineno="112"><highlight class="normal">}<sp/><ref refid="struct_a_d_c_c_c32_x_x___object" kindref="compound">ADCCC32XX_Object</ref>;</highlight></codeline>
+<codeline lineno="113"><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="preprocessor">#ifdef<sp/>__cplusplus</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="115"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="116"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="117"><highlight class="normal"></highlight></codeline>
+<codeline lineno="118"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>ti_drivers_adc_ADCCC32XX__include<sp/>*/</highlight><highlight class="preprocessor"></highlight></codeline>
+    </programlisting>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/adc/ADCCC32XX.h"/>
+  </compounddef>
+</doxygen>

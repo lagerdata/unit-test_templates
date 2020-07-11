@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../i2ctmp.c -> i2ctmp.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../i2ctmp.syscfg -> i2ctmp.syscfg",
+            "+../../../../../../../source/ti/boards/CC3235S_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235S_LAUNCHXL_TIRTOS.lds -> CC3235S_LAUNCHXL_TIRTOS.lds"
+        ]
+    }
+]

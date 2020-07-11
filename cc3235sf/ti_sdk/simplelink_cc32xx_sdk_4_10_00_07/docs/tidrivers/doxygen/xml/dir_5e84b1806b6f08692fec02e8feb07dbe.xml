@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="dir_5e84b1806b6f08692fec02e8feb07dbe" kind="dir">
+    <compoundname>cryptoutils</compoundname>
+    <innerdir refid="dir_44c5abe920dc7419621add7024096848">utils</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/cryptoutils/"/>
+  </compounddef>
+</doxygen>

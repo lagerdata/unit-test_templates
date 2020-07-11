@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../event.c -> event.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../event.syscfg -> event.syscfg",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../event.cfg -> event.cfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.icf -> CC3235SF_LAUNCHXL_TIRTOS.icf"
+        ]
+    }
+]

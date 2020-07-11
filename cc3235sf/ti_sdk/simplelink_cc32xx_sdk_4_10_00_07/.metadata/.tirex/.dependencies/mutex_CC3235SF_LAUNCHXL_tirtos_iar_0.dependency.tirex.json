@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../mutex.c -> mutex.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../mutex.syscfg -> mutex.syscfg",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../mutex.cfg -> mutex.cfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.icf -> CC3235SF_LAUNCHXL_TIRTOS.icf"
+        ]
+    }
+]

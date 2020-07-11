@@ -1,0 +1,13 @@
+package/lib/lib/drivers_cc32xx/./apps/Button.om4g: apps/Button.c  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h  /app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h  /app/source/ti/drivers/GPIO.h /app/source/ti/drivers/dpl/ClockP.h  /usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h  /app/source/ti/drivers/apps/Button.h
+apps/Button.c:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/stdint.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/machine/_default_types.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/features.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/_newlib_version.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_intsup.h:
+/app/kernel/tirtos/packages/gnu/targets/arm//libs/install-native/arm-none-eabi/include/sys/_stdint.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stdbool.h:
+/app/source/ti/drivers/GPIO.h:
+/app/source/ti/drivers/dpl/ClockP.h:
+/usr/lib/gcc/arm-none-eabi/9.2.1/include/stddef.h:
+/app/source/ti/drivers/apps/Button.h:

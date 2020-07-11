@@ -1,0 +1,13 @@
+[
+    {
+        "files": [
+            "+../../capturepwmdisplay.c -> capturepwmdisplay.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../main_freertos.c -> main_freertos.c",
+            "+../capturepwmdisplay.syscfg -> capturepwmdisplay.syscfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_FREERTOS.lds -> CC3235SF_LAUNCHXL_FREERTOS.lds"
+        ]
+    }
+]

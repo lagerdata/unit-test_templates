@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../sdraw.c -> sdraw.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../sdraw.syscfg -> sdraw.syscfg",
+            "+../../../../../../../source/ti/boards/CC3220SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3220SF_LAUNCHXL_TIRTOS.lds -> CC3220SF_LAUNCHXL_TIRTOS.lds"
+        ]
+    }
+]

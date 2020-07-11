@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_i2_s_c_c32_x_x___h_w_attrs" kind="struct" language="C++" prot="public">
+    <compoundname>I2SCC32XX_HWAttrs</compoundname>
+    <includes refid="_i2_s_c_c32_x_x_8h" local="no">I2SCC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1acfdb4bf6866feb4b9a8309d445d8f978" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::pinSD1</definition>
+        <argsstring></argsstring>
+        <name>pinSD1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin used for SD1 signal. Must be chosen between I2SCC32XX_PIN_50_SD1 and I2SCC32XX_PIN_60_SD1. Signal can be deactivated using I2SCC32XX_PIN_UNUSED. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="139" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1a46c687ef01aa11fce34de27e7b7bb4ca" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::pinSD0</definition>
+        <argsstring></argsstring>
+        <name>pinSD0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin used for SD0 signal. Must be chosen between I2SCC32XX_PIN_45_SD0, I2SCC32XX_PIN_50_SD0, I2SCC32XX_PIN_52_SD0, and I2SCC32XX_PIN_64_SD0. Signal can be deactivated using I2SCC32XX_PIN_UNUSED. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="142" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1a41ded7f527df4d53a668f8b0b6fe5f83" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::pinSCK</definition>
+        <argsstring></argsstring>
+        <name>pinSCK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin used for SCK signal. Must be chosen between I2SCC32XX_PIN_03_SCK, I2SCC32XX_PIN_52_SCK, and I2SCC32XX_PIN_53_SCK. Signal can be deactivated using I2SCC32XX_PIN_UNUSED. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="145" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1aee2a75b256d1e07a61dc954d26b04335" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::pinSCKX</definition>
+        <argsstring></argsstring>
+        <name>pinSCKX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin used for SCKX signal. Must be I2SCC32XX_PIN_62_SCKX. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="148" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1ad64135f0ae456be85dbd2cdb9864cc2d" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::pinWS</definition>
+        <argsstring></argsstring>
+        <name>pinWS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Pin used for WS signal. Must be chosen between I2SCC32XX_PIN_02_WS, I2SCC32XX_PIN_15_WS, I2SCC32XX_PIN_17_WS, I2SCC32XX_PIN_21_WS, I2SCC32XX_PIN_45_WS, I2SCC32XX_PIN_53_WS, and I2SCC32XX_PIN_63_WS. This signal cannot be deactivated. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="150" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1a993500aafd1be1f3e2dfdd6830f7bc65" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::rxChannelIndex</definition>
+        <argsstring></argsstring>
+        <name>rxChannelIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>uDMA channel index used for Rx. Must be chosen between UDMA_CH4_I2S_RX and UDMA_CH18_I2S_RX. Does not need to be set if no using the DMA transfers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="153" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1a606e5be2d6c7ad8ed6efa1ad64507551" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::txChannelIndex</definition>
+        <argsstring></argsstring>
+        <name>txChannelIndex</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>uDMA channel index used for Tx. Must be chosen between UDMA_CH5_I2S_TX and UDMA_CH19_I2S_TX. Does not need to be set if no using the DMA transfers. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="155" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_i2_s_c_c32_x_x___h_w_attrs_1a60b8606e45788bfbcd2d1513cb2fc141" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t I2SCC32XX_HWAttrs::intPriority</definition>
+        <argsstring></argsstring>
+        <name>intPriority</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>I2S Peripheral&apos;s interrupt priority </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="157" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>I2S Hardware attributes. </para>    </briefdescription>
+    <detaileddescription>
+<para>intPriority is the I2S peripheral&apos;s interrupt priority, as defined by the TI-RTOS kernel. This value is passed unmodified to Hwi_create().</para><para>pinSD1 and pinSD0 define the SD0 and SD1 data pin mapping, respectively. pinSCK, pinMCLK and pinWS define the SCK, MCLK and WS clock pin mapping, respectively. All these pins are typically defined with a macro in a header file, which maps to an IOID.</para><para>rxChannelIndex and txChannelIndex are uDMA channels respectively used for the read and the write interface.</para><para>A sample structure is shown below: <programlisting><codeline><highlight class="normal">const<sp/>I2SCC32XX_HWAttrs<sp/>i2sCC3220SHWAttrs[CC3220S_LAUNCHXL_I2SCOUNT]<sp/>=<sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.pinSD1<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>I2SCC32XX_PIN_50_SD1,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.pinSD0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>I2SCC32XX_PIN_64_SD0,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.pinSCK<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>I2SCC32XX_PIN_53_SCK,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.pinSCKX<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>I2SCC32XX_PIN_UNUSED,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.pinWS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>I2SCC32XX_PIN_63_WS,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.rxChannelIndex<sp/><sp/><sp/>=<sp/><sp/>UDMA_CH4_I2S_RX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.txChannelIndex<sp/><sp/><sp/>=<sp/><sp/>UDMA_CH5_I2S_TX,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>.intPriority<sp/><sp/><sp/><sp/><sp/><sp/>=<sp/><sp/>0x40,</highlight></codeline>
+<codeline><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline><highlight class="normal">};</highlight></codeline>
+</programlisting> </para>    </detaileddescription>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" line="138" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/i2s/I2SCC32XX.h" bodystart="138" bodyend="158"/>
+    <listofallmembers>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1a60b8606e45788bfbcd2d1513cb2fc141" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>intPriority</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1a41ded7f527df4d53a668f8b0b6fe5f83" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>pinSCK</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1aee2a75b256d1e07a61dc954d26b04335" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>pinSCKX</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1a46c687ef01aa11fce34de27e7b7bb4ca" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>pinSD0</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1acfdb4bf6866feb4b9a8309d445d8f978" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>pinSD1</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1ad64135f0ae456be85dbd2cdb9864cc2d" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>pinWS</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1a993500aafd1be1f3e2dfdd6830f7bc65" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>rxChannelIndex</name></member>
+      <member refid="struct_i2_s_c_c32_x_x___h_w_attrs_1a606e5be2d6c7ad8ed6efa1ad64507551" prot="public" virt="non-virtual"><scope>I2SCC32XX_HWAttrs</scope><name>txChannelIndex</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+[
+    {
+        "files": [
+            "+../../cryptoHmac.c -> cryptoHmac.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../overview.rov.json -> overview.rov.json",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../cryptohmac.syscfg -> cryptohmac.syscfg",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.lds -> CC3235SF_LAUNCHXL_TIRTOS.lds"
+        ]
+    }
+]

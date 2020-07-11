@@ -1,0 +1,592 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.12">
+  <compounddef id="struct_u_a_r_t2_c_c32_x_x___object" kind="struct" language="C++" prot="public">
+    <compoundname>UART2CC32XX_Object</compoundname>
+    <includes refid="_u_a_r_t2_c_c32_x_x_8h" local="no">UART2CC32XX.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a213a3d275d3eabc97366625333620512" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UART2CC32XX_Object::opened</definition>
+        <argsstring></argsstring>
+        <name>opened</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="268" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="268" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a476b74e79cf8ce3fa77cf298ed6568d3" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a5bfa1a3442db9943342497e519a08863" kindref="member">UART2_Mode</ref></type>
+        <definition>UART2_Mode UART2CC32XX_Object::readMode</definition>
+        <argsstring></argsstring>
+        <name>readMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="269" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a9d7cabea93dd9c590a646a758bb0957c" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a5bfa1a3442db9943342497e519a08863" kindref="member">UART2_Mode</ref></type>
+        <definition>UART2_Mode UART2CC32XX_Object::writeMode</definition>
+        <argsstring></argsstring>
+        <name>writeMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="270" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="270" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a9c653db6d8c56b06586181ec0fc53f6c" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1ab233d65776f6f909c674c5baae27637d" kindref="member">UART2_ReadReturnMode</ref></type>
+        <definition>UART2_ReadReturnMode UART2CC32XX_Object::readReturnMode</definition>
+        <argsstring></argsstring>
+        <name>readReturnMode</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="271" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a701d5298c52e34dcaf033fdf12dcd50b" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool UART2CC32XX_Object::txEnabled</definition>
+        <argsstring></argsstring>
+        <name>txEnabled</name>
+        <bitfield>1</bitfield>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="272" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ab3e11ff1a10e935acc8f56fa924eb142" prot="public" static="no" mutable="no">
+        <type>struct UART2CC32XX_Object::@1</type>
+        <definition>struct UART2CC32XX_Object::@1  UART2CC32XX_Object::state</definition>
+        <argsstring></argsstring>
+        <name>state</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="273" column="1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a72a063f9a4eb985d56d26b85ed988e3c" prot="public" static="no" mutable="no">
+        <type>HwiP_Handle</type>
+        <definition>HwiP_Handle UART2CC32XX_Object::hwi</definition>
+        <argsstring></argsstring>
+        <name>hwi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="275" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ab85a025cfe98f5dbfc6e76a1eca96151" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_Object::baudRate</definition>
+        <argsstring></argsstring>
+        <name>baudRate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="276" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="276" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a4aa3e0223392a739de0534cf071cc21a" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a6c14675701ba732f156c2eea7e3f6515" kindref="member">UART2_DataLen</ref></type>
+        <definition>UART2_DataLen UART2CC32XX_Object::dataLength</definition>
+        <argsstring></argsstring>
+        <name>dataLength</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="277" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1aa1c734e53077ab09a1ff53b27930bded" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1ae0d2d6413d7e338fd053569d848c239f" kindref="member">UART2_StopBits</ref></type>
+        <definition>UART2_StopBits UART2CC32XX_Object::stopBits</definition>
+        <argsstring></argsstring>
+        <name>stopBits</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="278" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="278" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a68b01bb5c9965156bb6850e6ba4b6dbd" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a259cb78d1b403c91619af5153a84994d" kindref="member">UART2_Parity</ref></type>
+        <definition>UART2_Parity UART2CC32XX_Object::parityType</definition>
+        <argsstring></argsstring>
+        <name>parityType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="279" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1afd01808917076511c7c28067d5e5b0ba" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t UART2CC32XX_Object::rxStatus</definition>
+        <argsstring></argsstring>
+        <name>rxStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="280" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="280" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a68e594444bdc80bf8c2eaf7f675ecdf9" prot="public" static="no" mutable="no">
+        <type>int32_t</type>
+        <definition>int32_t UART2CC32XX_Object::txStatus</definition>
+        <argsstring></argsstring>
+        <name>txStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="281" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="281" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a2cad8b257ca009fafa618ec22ec51d96" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void* UART2CC32XX_Object::userArg</definition>
+        <argsstring></argsstring>
+        <name>userArg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="282" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="282" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1af5d1b4dfeaee181a268a7e01040bdf43" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_d_m_a_c_c32_x_x_8h_1a0997550090216a2ba450afe62c17cb25" kindref="member">UDMACC32XX_Handle</ref></type>
+        <definition>UDMACC32XX_Handle UART2CC32XX_Object::udmaHandle</definition>
+        <argsstring></argsstring>
+        <name>udmaHandle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="283" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1add65c5659120dd3d7ad1711de5c96692" prot="public" static="no" mutable="no">
+        <type>unsigned char *</type>
+        <definition>unsigned char* UART2CC32XX_Object::readBuf</definition>
+        <argsstring></argsstring>
+        <name>readBuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="286" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a8a0a165bc8ab93e21b9e3a95060de1ce" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::readSize</definition>
+        <argsstring></argsstring>
+        <name>readSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="287" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a3c1530bac5cbe628004d995a4e4a5902" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_Object::nReadTransfers</definition>
+        <argsstring></argsstring>
+        <name>nReadTransfers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="288" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ada4b9f12f55a479ba93e45956483b59a" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::readCount</definition>
+        <argsstring></argsstring>
+        <name>readCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="289" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a4c98f2d8e5908dd5f3186d4b7c9881f9" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::rxSize</definition>
+        <argsstring></argsstring>
+        <name>rxSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="290" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="290" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a2193d303bd264ee53ab733633628d890" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::bytesRead</definition>
+        <argsstring></argsstring>
+        <name>bytesRead</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="291" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1aff8361a98b555ac8336d733fbc38baff" prot="public" static="no" mutable="no">
+        <type>SemaphoreP_Handle</type>
+        <definition>SemaphoreP_Handle UART2CC32XX_Object::readSem</definition>
+        <argsstring></argsstring>
+        <name>readSem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="292" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="292" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a4a69cee01da1ac7fa8eedf3fbd7997ca" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a00d68ce47bb8b798f31c3338077d301a" kindref="member">UART2_Callback</ref></type>
+        <definition>UART2_Callback UART2CC32XX_Object::readCallback</definition>
+        <argsstring></argsstring>
+        <name>readCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="293" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="293" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a00cfd31977d772a5910eda11168e1d4e" prot="public" static="no" mutable="no">
+        <type>const unsigned char *</type>
+        <definition>const unsigned char* UART2CC32XX_Object::writeBuf</definition>
+        <argsstring></argsstring>
+        <name>writeBuf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="296" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="296" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ae5636bafe63479333e4a69d81a4faeae" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::writeSize</definition>
+        <argsstring></argsstring>
+        <name>writeSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="297" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="297" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ac0d20b26aaaa66b72f59f2195d30c920" prot="public" static="no" mutable="no">
+        <type>uint32_t</type>
+        <definition>uint32_t UART2CC32XX_Object::nWriteTransfers</definition>
+        <argsstring></argsstring>
+        <name>nWriteTransfers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="298" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="298" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a1877b93a437117eda4d765d4b3665eef" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::writeCount</definition>
+        <argsstring></argsstring>
+        <name>writeCount</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="299" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1aa9481d0622dc6a132baf10c01e529905" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::txSize</definition>
+        <argsstring></argsstring>
+        <name>txSize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="300" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="300" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a23b7d05b048bdbbe2c85a8ee33e20760" prot="public" static="no" mutable="no">
+        <type>size_t</type>
+        <definition>size_t UART2CC32XX_Object::bytesWritten</definition>
+        <argsstring></argsstring>
+        <name>bytesWritten</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="301" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="301" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a94d9b37612b67572baf3ea0dfd6f5fc0" prot="public" static="no" mutable="no">
+        <type>SemaphoreP_Handle</type>
+        <definition>SemaphoreP_Handle UART2CC32XX_Object::writeSem</definition>
+        <argsstring></argsstring>
+        <name>writeSem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="302" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="302" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a33bf66bb7ae79da84c1895196afddaf0" prot="public" static="no" mutable="no">
+        <type><ref refid="_u_a_r_t2_8h_1a00d68ce47bb8b798f31c3338077d301a" kindref="member">UART2_Callback</ref></type>
+        <definition>UART2_Callback UART2CC32XX_Object::writeCallback</definition>
+        <argsstring></argsstring>
+        <name>writeCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="303" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1ac222cec6bf6982791ae6cc561effc098" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_power___notify_obj" kindref="compound">Power_NotifyObj</ref></type>
+        <definition>Power_NotifyObj UART2CC32XX_Object::postNotify</definition>
+        <argsstring></argsstring>
+        <name>postNotify</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="306" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a7cf5eaee09bc2e06ff1d594cfabba6cf" prot="public" static="no" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int UART2CC32XX_Object::powerMgrId</definition>
+        <argsstring></argsstring>
+        <name>powerMgrId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="307" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1af273d419f980464a4ce3e386ba4895a9" prot="public" static="no" mutable="no">
+        <type><ref refid="_power_c_c32_x_x_8h_1aed4c2508d1c416af97dbd8a8cb4d2f0f" kindref="member">PowerCC32XX_ParkState</ref></type>
+        <definition>PowerCC32XX_ParkState UART2CC32XX_Object::prevParkTX</definition>
+        <argsstring></argsstring>
+        <name>prevParkTX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="308" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a9945da8f153c97f6971634118d272b28" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t UART2CC32XX_Object::txPin</definition>
+        <argsstring></argsstring>
+        <name>txPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="309" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a424d6f5f0da42b1e5902bc08082c0e47" prot="public" static="no" mutable="no">
+        <type><ref refid="_power_c_c32_x_x_8h_1aed4c2508d1c416af97dbd8a8cb4d2f0f" kindref="member">PowerCC32XX_ParkState</ref></type>
+        <definition>PowerCC32XX_ParkState UART2CC32XX_Object::prevParkRTS</definition>
+        <argsstring></argsstring>
+        <name>prevParkRTS</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="310" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_u_a_r_t2_c_c32_x_x___object_1a670be4921649287e33fa95b88d517fb7" prot="public" static="no" mutable="no">
+        <type>uint16_t</type>
+        <definition>uint16_t UART2CC32XX_Object::rtsPin</definition>
+        <argsstring></argsstring>
+        <name>rtsPin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="311" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>UART2CC32XX Object. </para>    </briefdescription>
+    <detaileddescription>
+<para>The application must not access any member variables of this structure! </para>    </detaileddescription>
+    <collaborationgraph>
+      <node id="322">
+        <label>UART2_FxnTable</label>
+        <link refid="struct_u_a_r_t2___fxn_table"/>
+        <childnode refid="321" relation="usage">
+          <edgelabel>writeFxn</edgelabel>
+          <edgelabel>readCancelFxn</edgelabel>
+          <edgelabel>closeFxn</edgelabel>
+          <edgelabel>flushRxFxn</edgelabel>
+          <edgelabel>writeCancelFxn</edgelabel>
+          <edgelabel>openFxn</edgelabel>
+          <edgelabel>readFxn</edgelabel>
+        </childnode>
+      </node>
+      <node id="318">
+        <label>UART2CC32XX_Object</label>
+        <link refid="struct_u_a_r_t2_c_c32_x_x___object"/>
+        <childnode refid="319" relation="usage">
+          <edgelabel>postNotify</edgelabel>
+        </childnode>
+        <childnode refid="321" relation="usage">
+          <edgelabel>readCallback</edgelabel>
+          <edgelabel>writeCallback</edgelabel>
+        </childnode>
+        <childnode refid="323" relation="usage">
+          <edgelabel>udmaHandle</edgelabel>
+        </childnode>
+      </node>
+      <node id="319">
+        <label>Power_NotifyObj</label>
+        <link refid="struct_power___notify_obj"/>
+        <childnode refid="320" relation="usage">
+          <edgelabel>link</edgelabel>
+        </childnode>
+      </node>
+      <node id="320">
+        <label>List_Elem_</label>
+        <link refid="struct_list___elem__"/>
+        <childnode refid="320" relation="usage">
+          <edgelabel>prev</edgelabel>
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+      <node id="323">
+        <label>UDMACC32XX_Config</label>
+        <link refid="struct_u_d_m_a_c_c32_x_x___config"/>
+      </node>
+      <node id="321">
+        <label>UART2_Config_</label>
+        <link refid="struct_u_a_r_t2___config__"/>
+        <childnode refid="322" relation="usage">
+          <edgelabel>fxnTablePtr</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" line="265" column="1" bodyfile="exports/tidrivers_cc32xx/source/ti/drivers/uart2/UART2CC32XX.h" bodystart="265" bodyend="312"/>
+    <listofallmembers>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ab85a025cfe98f5dbfc6e76a1eca96151" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>baudRate</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a2193d303bd264ee53ab733633628d890" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>bytesRead</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a23b7d05b048bdbbe2c85a8ee33e20760" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>bytesWritten</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a4aa3e0223392a739de0534cf071cc21a" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>dataLength</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a72a063f9a4eb985d56d26b85ed988e3c" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>hwi</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a3c1530bac5cbe628004d995a4e4a5902" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>nReadTransfers</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ac0d20b26aaaa66b72f59f2195d30c920" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>nWriteTransfers</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a213a3d275d3eabc97366625333620512" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>opened</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a68b01bb5c9965156bb6850e6ba4b6dbd" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>parityType</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ac222cec6bf6982791ae6cc561effc098" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>postNotify</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a7cf5eaee09bc2e06ff1d594cfabba6cf" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>powerMgrId</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a424d6f5f0da42b1e5902bc08082c0e47" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>prevParkRTS</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1af273d419f980464a4ce3e386ba4895a9" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>prevParkTX</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1add65c5659120dd3d7ad1711de5c96692" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readBuf</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a4a69cee01da1ac7fa8eedf3fbd7997ca" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readCallback</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ada4b9f12f55a479ba93e45956483b59a" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readCount</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a476b74e79cf8ce3fa77cf298ed6568d3" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readMode</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a9c653db6d8c56b06586181ec0fc53f6c" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readReturnMode</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1aff8361a98b555ac8336d733fbc38baff" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readSem</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a8a0a165bc8ab93e21b9e3a95060de1ce" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>readSize</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a670be4921649287e33fa95b88d517fb7" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>rtsPin</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a4c98f2d8e5908dd5f3186d4b7c9881f9" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>rxSize</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1afd01808917076511c7c28067d5e5b0ba" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>rxStatus</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ab3e11ff1a10e935acc8f56fa924eb142" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>state</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1aa1c734e53077ab09a1ff53b27930bded" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>stopBits</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a701d5298c52e34dcaf033fdf12dcd50b" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>txEnabled</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a9945da8f153c97f6971634118d272b28" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>txPin</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1aa9481d0622dc6a132baf10c01e529905" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>txSize</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a68e594444bdc80bf8c2eaf7f675ecdf9" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>txStatus</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1af5d1b4dfeaee181a268a7e01040bdf43" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>udmaHandle</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a2cad8b257ca009fafa618ec22ec51d96" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>userArg</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a00cfd31977d772a5910eda11168e1d4e" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeBuf</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a33bf66bb7ae79da84c1895196afddaf0" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeCallback</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a1877b93a437117eda4d765d4b3665eef" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeCount</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a9d7cabea93dd9c590a646a758bb0957c" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeMode</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1a94d9b37612b67572baf3ea0dfd6f5fc0" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeSem</name></member>
+      <member refid="struct_u_a_r_t2_c_c32_x_x___object_1ae5636bafe63479333e4a69d81a4faeae" prot="public" virt="non-virtual"><scope>UART2CC32XX_Object</scope><name>writeSize</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

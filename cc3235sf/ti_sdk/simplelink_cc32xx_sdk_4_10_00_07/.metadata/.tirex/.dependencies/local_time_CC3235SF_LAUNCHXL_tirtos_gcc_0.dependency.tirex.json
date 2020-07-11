@@ -1,0 +1,15 @@
+[
+    {
+        "files": [
+            "+../../local_time.c -> local_time.c",
+            "+../../README.md -> README.md",
+            "+../../README.html -> README.html",
+            "+../../uart_term.c -> uart_term.c",
+            "+../../uart_term.h -> uart_term.h",
+            "+../../local_time.syscfg -> local_time.syscfg",
+            "+../main_tirtos.c -> main_tirtos.c",
+            "+../../../../../../../source/ti/boards/CC3235SF_LAUNCHXL/Board.html -> Board.html",
+            "+CC3235SF_LAUNCHXL_TIRTOS.lds -> CC3235SF_LAUNCHXL_TIRTOS.lds"
+        ]
+    }
+]
