@@ -2,8 +2,8 @@
 #
 ########################################
 # This connects to a GDB Server listening
-# for commands on localhost at tcp port 2331
-target remote dev.lagerdata.app:2159
+# for commands on localhost at tcp port 3333
+target remote localhost:3333
 ########################################
 
 
@@ -25,7 +25,7 @@ monitor reset halt
 
 
 # Load the program executable called "image.elf"
-file ../_build/cc32xx/unity-cc32xx
+file ../_build/cc3235sf/unity-cc3235sf
 
 
 set breakpoint pending on
