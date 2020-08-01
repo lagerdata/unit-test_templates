@@ -12,3 +12,5 @@ add_subdirectory(atsame70)
 add_subdirectory(cc3235sf)
 
 add_subdirectory(cc3220s)
+
+add_subdirectory(stm32l475)
